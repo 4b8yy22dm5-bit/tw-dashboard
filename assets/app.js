@@ -32,7 +32,7 @@ function num(v){if(v===null||v===undefined||v==='')return null;var n=typeof v===
 function valPos(code,price,val){
   var v=val&&val[code];
   if(!v||!v.baseline||!v.buy||!v.sell)return {k:'none',t:v&&v.reason?v.reason:'尚未建立鎖定估價基準'};
-  var p=num(price);if(p===null)return {k:'none',t:'無價格'};
+  var p=num(price);if(p===null)return {k:'na',t:'尚無價格'};
   var t='基準 '+v.baseline+'｜參考買進帶 '+v.buy[0]+'–'+v.buy[1]+'｜參考賣出帶 '+v.sell[0]+'–'+v.sell[1]+(v.base!=null?'｜Base≈'+v.base:'')+'（參考位置，非建議）';
   if(p<=v.buy[1])return {k:'buy',t:t};
   if(p>=v.sell[0])return {k:'sell',t:t};
@@ -57,7 +57,7 @@ function renderWL(w,val){
       '<div class="pct '+cls(r.chg_pct)+'">'+pct(r.chg_pct)+'</div>'+
       '<div class="vol"><span class="lbl">量比 </span>'+(r.vol_ratio!=null?'<b>'+num(r.vol_ratio).toFixed(2)+'×</b>':ND)+'</div>'+
       '<div class="badge">'+chip(r.lamp)+'</div>'+
-      '<div class="valpos"><span class="lbl">估價</span>'+valChip(vp.k,vp.t)+'</div>'+
+      '<div class="valpos"><span class="lbl">估價</span>'+(vp.k==='na'?ND:valChip(vp.k,vp.t))+'</div>'+
       '<div class="note">'+rich(r.note)+'</div></div>';
   });
   return sec(h2('自選燈號表',w.title_note)+'<div class="wl">'+h+'</div>'+
