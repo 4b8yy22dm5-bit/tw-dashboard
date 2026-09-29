@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-09-29",
   "date_label": "2026-09-29（二）｜連假後首個交易日",
-  "last_updated": "2026-09-29T17:35:48+08:00",
+  "last_updated": "2026-09-29T18:47:01+08:00",
   "default_tab": "pm",
   "valuation": {
     "5234": {
@@ -18,22 +18,82 @@
         380
       ],
       "base": 275,
-      "revised_today": false
+      "bear": 122,
+      "bull": 378,
+      "revised_today": false,
+      "reason": "今年E 低確信度"
     },
     "2241": {
       "name": "艾姆勒",
       "baseline": null,
       "reason": "虧損中，無估價帶"
+    },
+    "2330": {
+      "name": "台積電",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        1510,
+        2180
+      ],
+      "sell": [
+        2660,
+        3770
+      ],
+      "base": 2422,
+      "bear": 1507,
+      "bull": 3769,
+      "revised_today": false
+    },
+    "3037": {
+      "name": "欣興",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        150,
+        400
+      ],
+      "sell": [
+        490,
+        805
+      ],
+      "base": 446,
+      "bear": 152,
+      "bull": 805,
+      "revised_today": false,
+      "reason": "FactSet 7/30 共識偏舊"
+    },
+    "2408": {
+      "name": "南亞科",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        380,
+        510
+      ],
+      "sell": [
+        620,
+        740
+      ],
+      "base": 566,
+      "bear": 378,
+      "bull": 741,
+      "revised_today": false
     }
   },
   "intraday": {
     "status": "closed",
-    "updated_at": "2026-09-29T13:51:00+08:00",
+    "updated_at": "2026-09-29T18:47:01+08:00",
     "batches": [
       {
         "seq": 1,
         "at": "2026-09-29T13:51:00+08:00",
         "note": "收盤簡報彙整（MIS 13:49:55）"
+      },
+      {
+        "seq": 2,
+        "at": "2026-09-29T18:47:01+08:00",
+        "note": "估價基準更正（估價參謀 v2026-09-23-1）"
       }
     ],
     "watchlist": {
