@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台股每日儀表板</title>
+<meta name="description" content="台股每日儀表板：晨間／收盤簡報、自選燈號、盤中時間軸。僅供參考，非投資建議。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<input type="radio" name="tab" id="tab-am" class="tabinput">
+<input type="radio" name="tab" id="tab-pm" class="tabinput" checked>
+<div class="wrap">
+<header>
+  <div class="hrow">
+    <div>
+      <h1>台股每日儀表板<span class="live" id="live" hidden></span></h1>
+      <div class="date" id="date-label">載入中…</div>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <div class="tabs" role="tablist">
+        <label for="tab-am">晨間</label>
+        <label for="tab-pm">收盤</label>
+      </div>
+      <button class="darkbtn" id="darkbtn" type="button" aria-label="切換深色模式">◐ 深色</button>
+    </div>
+  </div>
+  <div class="meta view view-am" id="meta-am"></div>
+  <div class="meta view view-pm" id="meta-pm"></div>
+  <div class="toolbar">
+    <label>日期／封存：<select id="date-select" aria-label="選擇日期"></select></label>
+    <span class="upd">最後更新：<b id="last-updated">—</b>（台北時間）</span>
+  </div>
+  <div class="legend">
+    <span>價格：<b class="up">紅＝漲</b>／<b class="down">綠＝跌</b>（台股慣例）</span>
+    <span>警戒燈：<span class="chip y">黃</span> <span class="chip o">橘</span> <span class="chip r">紅</span></span>
+    <span>估價位置：<span class="val buy">買區</span> <span class="val mid">中間</span> <span class="val sell">賣區</span>（參考位置，非建議）</span>
+  </div>
+</header>
+
+<main class="view view-pm" id="view-pm"></main>
+<main class="view view-am" id="view-am"></main>
+
+<footer>
+  <div class="disc"><b>免責聲明：</b>本頁僅整理既有簡報之事實與判讀，<b>非投資建議</b>、無下單指示、不保證任何報酬。估價參考帶與「估價位置」僅為相對參考帶的位置標示，非買賣建議。各區塊資料時間與來源見頁首「資料時間」及下方「資料來源」；資料可能延遲或有誤，請以證交所、櫃買中心及公司公告為準。</div>
+  <div id="sources"><b>資料來源</b><ul id="sources-list"></ul></div>
+</footer>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>
