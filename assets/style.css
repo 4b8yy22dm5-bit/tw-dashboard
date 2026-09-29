@@ -169,3 +169,8 @@ body.dark .val.sell{color:var(--sell)}
   .wl-h,.wl-r{grid-template-columns:minmax(128px,auto) 64px 68px 56px 72px 70px minmax(0,1fr);grid-template-areas:"name close pct vol badge val note"}
   .wl-r .valpos .lbl{display:none}
 }
+/* 手機：量比無資料時不換行，向左延伸 */
+@media (max-width:759px){
+  .wl-r .vol{white-space:nowrap;justify-self:end}
+  .wl-r .vol .nodata{font-size:12px}
+}
