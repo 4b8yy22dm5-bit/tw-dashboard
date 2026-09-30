@@ -1,0 +1,583 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-30",
+  "date_label": "2026-09-30（三）",
+  "last_updated": "2026-09-30T08:46:31+08:00",
+  "default_tab": "am",
+  "valuation": {
+    "5234": {
+      "name": "達興材料",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        120,
+        250
+      ],
+      "sell": [
+        300,
+        380
+      ],
+      "base": 275,
+      "bear": 122,
+      "bull": 378,
+      "revised_today": false,
+      "reason": "今年E 低確信度"
+    },
+    "2241": {
+      "name": "艾姆勒",
+      "baseline": null,
+      "reason": "虧損中，無估價帶"
+    },
+    "2330": {
+      "name": "台積電",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        1510,
+        2180
+      ],
+      "sell": [
+        2660,
+        3770
+      ],
+      "base": 2422,
+      "bear": 1507,
+      "bull": 3769,
+      "revised_today": false
+    },
+    "3037": {
+      "name": "欣興",
+      "baseline": "v2026-09-29-1",
+      "source": "估價參謀",
+      "buy": [
+        190,
+        500
+      ],
+      "sell": [
+        610,
+        945
+      ],
+      "base": 554,
+      "bear": 189,
+      "bull": 945,
+      "revised_today": false,
+      "reason": "暫定、低確信度（基本面更新；待 FactSet 更新或 Q3 財報轉正式）"
+    },
+    "2408": {
+      "name": "南亞科",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        380,
+        510
+      ],
+      "sell": [
+        620,
+        740
+      ],
+      "base": 566,
+      "bear": 378,
+      "bull": 741,
+      "revised_today": false
+    }
+  },
+  "intraday": {
+    "status": "pre",
+    "updated_at": null,
+    "batches": [],
+    "watchlist": {
+      "title_note": "盤前｜價格待開盤後更新",
+      "rows": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "0050",
+          "name": "元大台灣50",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "5234",
+          "name": "達興材料",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "3324",
+          "name": "雙鴻",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "2408",
+          "name": "南亞科",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "1560",
+          "name": "中砂",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "2241",
+          "name": "艾姆勒",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        }
+      ],
+      "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 通常為雙訊號（±7%＋放量）。"
+    },
+    "timeline": {
+      "title_note": "watchlist-alert bot",
+      "events": [],
+      "empty": "今日無資料（08:41 尚未開盤）— 見盤中更新"
+    }
+  },
+  "views": {
+    "am": {
+      "meta": "資料時間：晨間簡報 08:41；美股指數 9/29 美東收盤；台股前一交易日 9/29 13:30；台指期夜盤見期交所；匯率約 08:43（台北）。",
+      "market": {
+        "title_note": "前一交易日 9/29 收盤",
+        "cards": [
+          {
+            "label": "加權指數",
+            "value": "47,631.96",
+            "value_cls": "down",
+            "sub": "▼ 392.64（−0.82%）",
+            "sub_cls": "down",
+            "note": "開 47,873.89／高 48,045.13／低 47,573.09｜失守 48,000"
+          },
+          {
+            "label": "櫃買指數",
+            "value": "412.25",
+            "value_cls": "down",
+            "sub": "▼ 0.74（−0.18%）",
+            "sub_cls": "down",
+            "note": "昨收 412.99（9/29 收盤簡報）"
+          },
+          {
+            "label": "上市漲跌家數",
+            "value": "{{up:374}} / {{down:586}}",
+            "sub": "持平 112｜漲停 24／跌停 0",
+            "note": "跌多漲少（證交所）"
+          },
+          {
+            "label": "成交金額",
+            "value": "證券約 7,696 億",
+            "sub": "總計（含 ETF／權證等）約 8,361 億",
+            "note": "三大法人合計賣超 約 784.1 億（外資 −625.8／投信 +5.8／自營含避險 −164.0）{{src:證交所 BFI82U}}"
+          }
+        ]
+      },
+      "us": {
+        "title": "隔夜美股與總經",
+        "title_note": "9/29 美東收盤（指數）；原油為 9/30 晨間期價",
+        "cards": [
+          {
+            "label": "道瓊",
+            "value": "51,349.92",
+            "sub": "−131.59（−0.26%）",
+            "sub_cls": "down",
+            "note": "{{src:AP／Yahoo}}"
+          },
+          {
+            "label": "S&P 500",
+            "value": "7,670.84",
+            "sub": "−12.85（−0.17%）",
+            "sub_cls": "down"
+          },
+          {
+            "label": "那斯達克",
+            "value": "26,797.54",
+            "sub": "−22.84（−0.09%）",
+            "sub_cls": "down"
+          },
+          {
+            "label": "那斯達克 100",
+            "value": "30,339.33",
+            "sub": "+62.52（+0.21%）",
+            "sub_cls": "up",
+            "note": "{{src:investinglive}}"
+          },
+          {
+            "label": "費城半導體",
+            "value": "12,629.16",
+            "sub": "+163.92（+1.32%）",
+            "sub_cls": "up",
+            "note": "芯片股相對強"
+          },
+          {
+            "label": "美債 10Y",
+            "value": "5.255%",
+            "sub": "約 +1.5 bp（Yahoo ^TNX）",
+            "sub_cls": "up",
+            "note": "高檔區"
+          },
+          {
+            "label": "VIX",
+            "value": "16.04",
+            "sub": "−0.19%",
+            "sub_cls": "down"
+          },
+          {
+            "label": "WTI（晨間期）",
+            "value": "約 89.2",
+            "sub": "較 9/28 結 92.60 約 {{down:−3.6%}}",
+            "sub_cls": "down",
+            "note": "Yahoo CL=F；9/29 日線缺列"
+          },
+          {
+            "label": "Brent（晨間期）",
+            "value": "約 96.0",
+            "sub": "較 9/28 結 105.28 約 {{down:−8.7%}}",
+            "sub_cls": "down",
+            "note": "波動大，以期交所／路透核對為準"
+          },
+          {
+            "label": "台積電 ADR",
+            "value": "452.88",
+            "sub": "Yahoo 日線暫至 9/28；9/29 bar 未見",
+            "sub_cls": "flat",
+            "note": "開盤更看台積電期 夜盤 2,520（{{up:+29}}）"
+          },
+          {
+            "label": "美元／台幣",
+            "value": "約 31.84",
+            "sub": "Yahoo TWD=X 08:43；cnyes 約 31.88",
+            "sub_cls": "up",
+            "note": "美元偏強"
+          },
+          {
+            "label": "日經 225",
+            "value": "66,490.71",
+            "sub": "+613.09（+0.93%）",
+            "sub_cls": "up",
+            "note": "{{src:Yahoo 晨間}}"
+          }
+        ],
+        "caption": "台指期夜盤（期交所，經濟日報 9/30 05:16）：臺指期收 48,479（較開盤參考價 {{up:+698}}）；台積電期 2,520（{{up:+29}}）；費半期 12,756.5（{{up:+294.5}}）。現貨前收 47,631.96，夜盤大幅高於現貨，開盤缺口／高開低走風險需盯。"
+      },
+      "watchlist": {
+        "title_note": "9/29 收盤｜燈號僅供延續觀察（晨間不新開警報）",
+        "rows": [
+          {
+            "code": "2330",
+            "name": "台積電",
+            "price": 2475,
+            "price_text": "2,475",
+            "chg_pct": 0.0,
+            "vol_ratio": 1.38,
+            "lamp": null,
+            "note": "平盤守穩；夜盤期貨 2,520（+29）"
+          },
+          {
+            "code": "0050",
+            "name": "元大台灣50",
+            "price": 111.3,
+            "price_text": "111.30",
+            "chg_pct": -0.98,
+            "vol_ratio": 1.58,
+            "lamp": "y",
+            "note": "量≥1.5×；隨指數"
+          },
+          {
+            "code": "5234",
+            "name": "達興材料",
+            "price": 322,
+            "price_text": "322",
+            "chg_pct": 9.9,
+            "vol_ratio": 3.21,
+            "lamp": "r",
+            "note": "昨漲停；估價位置＝賣區（帶 300–380）"
+          },
+          {
+            "code": "3037",
+            "name": "欣興",
+            "price": 1165,
+            "price_text": "1,165",
+            "chg_pct": -1.69,
+            "vol_ratio": 0.5,
+            "lamp": null,
+            "note": "載板調節；基準 v2026-09-29-1 暫定低確信度"
+          },
+          {
+            "code": "3324",
+            "name": "雙鴻",
+            "price": 1630,
+            "price_text": "1,630",
+            "chg_pct": -4.68,
+            "vol_ratio": 0.88,
+            "lamp": "y",
+            "note": "散熱回檔；注意期至 9/29"
+          },
+          {
+            "code": "2408",
+            "name": "南亞科",
+            "price": 506,
+            "price_text": "506",
+            "chg_pct": 0.6,
+            "vol_ratio": 0.41,
+            "lamp": null,
+            "note": "量縮抗跌；美光財報前觀望"
+          },
+          {
+            "code": "1560",
+            "name": "中砂",
+            "price": 956,
+            "price_text": "956",
+            "chg_pct": -1.54,
+            "vol_ratio": 0.52,
+            "lamp": null,
+            "note": "注意列示背景"
+          },
+          {
+            "code": "2241",
+            "name": "艾姆勒",
+            "price": 44.0,
+            "price_text": "44.00",
+            "chg_pct": 0.92,
+            "vol_ratio": 2.68,
+            "lamp": "o",
+            "note": "價平量爆；虧損無估價帶"
+          }
+        ]
+      },
+      "timeline": {
+        "empty": "今日無資料（08:41 尚未開盤）— 見「收盤」分頁／盤中燈號"
+      },
+      "focus": {
+        "caption": "晨間焦點延續：5234 昨漲停收 322（賣區）；2330 平盤＋期貨夜盤 {{up:+29}}。完整估價見 valuation 欄；0050／3324／1560 未建基準，2241 虧損無帶。"
+      },
+      "sectors": {
+        "title_note": "基準 9/29 盤面（收盤簡報＋證交所）",
+        "strong": [
+          {
+            "name": "塑化／油價連動",
+            "detail": "台塑化等偏強敘事（收盤簡報）；惟 Brent 晨間期大幅回吐，連動性今日需重估"
+          },
+          {
+            "name": "特用化學／半導體材料",
+            "detail": "達興材料 322 {{up:+9.90%}} 漲停"
+          },
+          {
+            "name": "金融抽樣",
+            "detail": "富邦金／國泰金收盤簡報偏穩；未含電子指數小漲"
+          },
+          {
+            "name": "面板抽樣",
+            "detail": "友達量能偏強收漲（收盤簡報）"
+          },
+          {
+            "name": "費半隔夜",
+            "detail": "SOX {{up:+1.32%}}，科技權值相對大盤抗跌"
+          }
+        ],
+        "weak": [
+          {
+            "name": "IC 設計高價權值",
+            "detail": "聯發科 4,910 {{down:−7.10%}}、創意重挫（收盤簡報）"
+          },
+          {
+            "name": "散熱／熱傳",
+            "detail": "雙鴻 {{down:−4.68%}}、奇鋐回檔"
+          },
+          {
+            "name": "被動元件／電子權值",
+            "detail": "國巨、台達電收黑"
+          },
+          {
+            "name": "加權大盤",
+            "detail": "失守 48K，價跌量增，跌家 586＞漲家 374"
+          },
+          {
+            "name": "載板高檔",
+            "detail": "欣興 {{down:−1.69%}} 調節"
+          }
+        ]
+      },
+      "weights": {
+        "title_note": "前收 9/29",
+        "price_col": "前收",
+        "impact_col": "開盤前焦點",
+        "rows": [
+          {
+            "stock": "2330 台積電",
+            "price_text": "2,475",
+            "chg_pct": 0.0,
+            "impact": "有：夜盤期貨 2,520（+29）"
+          },
+          {
+            "stock": "2454 聯發科",
+            "price_text": "4,910",
+            "chg_pct": -7.1,
+            "impact": "有：昨重挫後反彈／續跌分歧"
+          },
+          {
+            "stock": "2317 鴻海",
+            "price_text": "250.5",
+            "chg_pct": 0.0,
+            "impact": "平盤；10/1 BofA 會議背景"
+          },
+          {
+            "stock": "2308 台達電",
+            "price_text": "1,835",
+            "chg_pct": -3.93,
+            "impact": "否（昨弱勢）"
+          },
+          {
+            "stock": "2382 廣達",
+            "price_text": "336.5",
+            "chg_pct": -0.59,
+            "impact": "否"
+          }
+        ]
+      },
+      "satellite": {
+        "title_note": "9/29 收盤（Yahoo／櫃買）",
+        "rows": [
+          {
+            "tier": "A",
+            "stock": "3491 昇達科",
+            "price_text": "1,510",
+            "chg_pct": -2.89
+          },
+          {
+            "tier": "A",
+            "stock": "2313 華通",
+            "price_text": "226",
+            "chg_pct": 1.57
+          },
+          {
+            "tier": "A",
+            "stock": "6285 啟碁",
+            "price_text": "232.5",
+            "chg_pct": -2.31
+          },
+          {
+            "tier": "A",
+            "stock": "2367 燿華",
+            "price_text": "42.25",
+            "chg_pct": 1.32
+          },
+          {
+            "tier": "A",
+            "stock": "3105 穩懋",
+            "price_text": "493",
+            "chg_pct": -1.79
+          },
+          {
+            "tier": "B",
+            "stock": "2355 敬鵬",
+            "price_text": "41.60",
+            "chg_pct": -0.24
+          },
+          {
+            "tier": "B",
+            "stock": "6271 同欣電",
+            "price_text": "227",
+            "chg_pct": -0.87
+          },
+          {
+            "tier": "B",
+            "stock": "6526 達發",
+            "price_text": "814",
+            "chg_pct": -3.1
+          },
+          {
+            "tier": "B",
+            "stock": "2314 台揚",
+            "price_text": "11.05",
+            "chg_pct": 0.91
+          }
+        ],
+        "bullets": [
+          "華通、燿華 9/29 收紅；昇達科／啟碁／穩懋收黑，衛星鏈分歧。",
+          "Starlink V3／Flight 14 催化仍在；SPCX 閉鎖期：10/9、~10/26、Q3 後、12/8。",
+          "3105／6526／6271 近月動能較接近 AI 光通訊，不宜全部當成純衛星。{{src:既有觀察筆記}}"
+        ],
+        "lockup_title": "SPCX 閉鎖期到期（約）",
+        "lockup": [
+          "10/9",
+          "~10/26",
+          "Q3 後",
+          "12/8"
+        ]
+      },
+      "news": [
+        "9/29 加權收 47,631.96（{{down:−0.82%}}）失守 48K，價跌量增；三大法人賣超約 784 億。{{src:證交所／工商}}",
+        "夜盤臺指期收 48,479（較參考價 {{up:+698}}）、台積電期 2,520（{{up:+29}}），與現貨缺口大。{{src:期交所／經濟日報}}",
+        "隔夜美股指數小跌，但費半 {{up:+1.32%}}、NDX {{up:+0.21%}}；10Y 約 5.26%。{{src:AP／Yahoo}}",
+        "油價晨間期價較 9/28 結算明顯回落（WTI／Brent），塑化連動題材需重估。{{src:Yahoo 期}}",
+        "川習會後貿易休兵延長至 2027/1/10；本週焦點含美光財報（約 10/1 清晨）、PCE／非農。{{src:工商}}",
+        "自選延續：5234 昨漲停在賣區；3324 黃燈回檔；2241 橘燈量能。"
+      ],
+      "summary": {
+        "fact_title": "事實",
+        "fact": "9/29 台股失守 48K、法人大幅賣超；隔夜美股指數小跌但費半收紅；台指期夜盤大漲收 48,479、台積電期 +29；油價晨間期回落。",
+        "read_title": "判讀（非建議）",
+        "read": "開盤偏向「期貨高開／現貨缺口」結構，先看能否站回 48,000 與台積電期現收斂；費半轉強對權值電子有支撐，但昨 IC 設計與散熱已出現資金撤出跡象。5234 短線過熱（賣區），宜當成波動標的而非新訊號。"
+      }
+    },
+    "pm": {
+      "meta": "",
+      "watchlist": {
+        "source": "intraday"
+      },
+      "timeline": {
+        "source": "intraday"
+      }
+    }
+  },
+  "sources": [
+    "Yahoo Finance（美股指數／費半／匯率／原油期；個股日線部分至 9/28）{{src:08:40 台北}}",
+    "證交所 MI_INDEX／三大法人 BFI82U（9/29）",
+    "台灣期交所夜盤（經濟日報轉載 9/30 05:16）",
+    "工商時報／經濟日報盤前整理（9/29–9/30）",
+    "MIS 盤前參考（t00 昨收）",
+    "估價參謀基準沿用（publish.py new 自 9/29）"
+  ]
+}
