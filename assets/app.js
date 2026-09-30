@@ -4,7 +4,7 @@
 var ND='<span class="nodata">今日無資料</span>';
 var LAMP={y:'黃',o:'橘',r:'紅'};
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
-/* 行內標記：{{up:文字}} {{down:}} {{flat:}} {{b:}} {{bup:}} {{bdown:}} {{src:}} {{tag:}} {{chip:y|o|r}} {{nd}} {{val:buy|mid|sell|none}} */
+/* 行內標記：{{up:文字}} {{down:}} {{flat:}} {{b:}} {{bup:}} {{bdown:}} {{src:}} {{tag:}} {{chip:y|o|r}} {{green}} {{nd}} {{val:buy|mid|sell|none}} */
 function rich(s){
   if(s===null||s===undefined||s==='')return '';
   return esc(s).replace(/\{\{(\w+)(?::(.*?))?\}\}/g,function(m,k,t){
@@ -15,12 +15,15 @@ function rich(s){
       case 'bup':return '<b class="up">'+t+'</b>';
       case 'bdown':return '<b class="down">'+t+'</b>';
       case 'chip':return chip(t);
+      case 'green':return greenBadge();
       case 'nd':return ND;
       case 'val':return valChip(t);
       default:return m;
     }
   });
 }
+/* 💚 綠：價格 ≤ 參考買進帶上緣（WLRow.green=true，由自選股哨兵判定；參考，非建議） */
+function greenBadge(){return '<span class="gbadge" title="價格 ≤ 參考買進帶上緣（參考位置，非建議）">💚 進入參考買進帶（參考）</span>';}
 function chip(l){return LAMP[l]?'<span class="chip '+l+'">'+LAMP[l]+'</span>':'<span class="chip none">無燈號</span>';}
 var VAL={buy:'買區',mid:'中間',sell:'賣區',none:'未建基準'};
 function valChip(k,title){return '<span class="val '+k+'"'+(title?' title="'+esc(title)+'"':'')+'>'+VAL[k]+'</span>';}
@@ -56,13 +59,13 @@ function renderWL(w,val){
       '<div class="close '+cls(r.chg_pct)+'">'+(pt!=null?esc(pt):ND)+'</div>'+
       '<div class="pct '+cls(r.chg_pct)+'">'+pct(r.chg_pct)+'</div>'+
       '<div class="vol"><span class="lbl">量比 </span>'+(r.vol_ratio!=null?'<b>'+num(r.vol_ratio).toFixed(2)+'×</b>':ND)+'</div>'+
-      '<div class="badge">'+chip(r.lamp)+'</div>'+
+      '<div class="badge">'+chip(r.lamp)+(r.green?' '+greenBadge():'')+'</div>'+
       '<div class="valpos"><span class="lbl">估價</span>'+(vp.k==='na'?ND:valChip(vp.k,vp.t))+'</div>'+
       '<div class="note">'+rich(r.note)+'</div></div>';
   });
   return sec(h2('自選燈號表',w.title_note)+'<div class="wl">'+h+'</div>'+
     (w.caption?'<div class="caption">'+rich(w.caption)+'</div>':'')+
-    '<div class="caption">估價位置：以價格對照估價參謀參考帶——≤ 參考買進帶上緣＝買區、≥ 參考賣出帶下緣＝賣區、其餘＝中間；未建基準＝尚無鎖定估價帶。<b>僅為參考位置，非買賣建議。</b></div>');
+    '<div class="caption">估價位置：以價格對照估價參謀參考帶——≤ 參考買進帶上緣＝買區、≥ 參考賣出帶下緣＝賣區、其餘＝中間；未建基準＝尚無鎖定估價帶。💚＝進入參考買進帶（價格 ≤ 參考買進帶上緣）。<b>僅為參考位置，非買賣建議。</b></div>');
 }
 function renderTL(tl){
   if(!tl||!tl.events||!tl.events.length){
