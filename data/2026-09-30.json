@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-09-30",
   "date_label": "2026-09-30（三）",
-  "last_updated": "2026-09-30T09:48:05+08:00",
+  "last_updated": "2026-09-30T10:56:21+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -83,104 +83,109 @@
   },
   "intraday": {
     "status": "open",
-    "updated_at": "2026-09-30T09:48:05+08:00",
+    "updated_at": "2026-09-30T10:56:21+08:00",
     "batches": [
       {
         "seq": 1,
         "at": "2026-09-30T09:48:05+08:00",
         "note": "09:47 批次"
+      },
+      {
+        "seq": 2,
+        "at": "2026-09-30T10:56:21+08:00",
+        "note": "10:44 批次"
       }
     ],
     "watchlist": {
-      "title_note": "盤中 09:47｜量比＝今日量／20 日均量",
+      "title_note": "盤中 10:44｜量比＝今日量／20 日均量｜MIS 10:56",
       "rows": [
         {
           "code": "2330",
           "name": "台積電",
-          "price": 2505,
-          "price_text": "2,505",
-          "chg_pct": 1.21,
-          "vol_ratio": 0.26,
+          "price": 2498,
+          "price_text": "2,498",
+          "chg_pct": 0.93,
+          "vol_ratio": 0.53,
           "lamp": null,
           "note": "",
-          "updated_at": "2026-09-30T09:48:05+08:00"
+          "updated_at": "2026-09-30T10:56:21+08:00"
         },
         {
           "code": "0050",
           "name": "元大台灣50",
-          "price": 112.85,
-          "price_text": "112.85",
-          "chg_pct": 1.39,
-          "vol_ratio": 0.23,
+          "price": 112.68,
+          "price_text": "112.68",
+          "chg_pct": 1.24,
+          "vol_ratio": 0.48,
           "lamp": null,
           "note": "",
-          "updated_at": "2026-09-30T09:48:05+08:00"
+          "updated_at": "2026-09-30T10:56:21+08:00"
         },
         {
           "code": "5234",
           "name": "達興材料",
-          "price": 318,
-          "price_text": "318",
-          "chg_pct": -1.24,
-          "vol_ratio": 2.92,
+          "price": 313,
+          "price_text": "313",
+          "chg_pct": -2.8,
+          "vol_ratio": 4.26,
           "lamp": null,
           "note": "",
-          "updated_at": "2026-09-30T09:48:05+08:00"
+          "updated_at": "2026-09-30T10:56:21+08:00"
         },
         {
           "code": "3037",
           "name": "欣興",
-          "price": 1180,
-          "price_text": "1,180",
-          "chg_pct": 1.29,
-          "vol_ratio": 0.17,
+          "price": 1172,
+          "price_text": "1,172",
+          "chg_pct": 0.6,
+          "vol_ratio": 0.28,
           "lamp": null,
           "note": "",
-          "updated_at": "2026-09-30T09:48:05+08:00"
+          "updated_at": "2026-09-30T10:56:21+08:00"
         },
         {
           "code": "3324",
           "name": "雙鴻",
-          "price": 1610,
-          "price_text": "1,610",
-          "chg_pct": -1.23,
-          "vol_ratio": 0.29,
+          "price": 1578,
+          "price_text": "1,578",
+          "chg_pct": -3.19,
+          "vol_ratio": 0.5,
           "lamp": null,
           "note": "",
-          "updated_at": "2026-09-30T09:48:05+08:00"
+          "updated_at": "2026-09-30T10:56:21+08:00"
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "price": 509,
-          "price_text": "509",
-          "chg_pct": 0.59,
-          "vol_ratio": 0.22,
+          "price": 512,
+          "price_text": "512",
+          "chg_pct": 1.19,
+          "vol_ratio": 0.31,
           "lamp": null,
           "note": "",
-          "updated_at": "2026-09-30T09:48:05+08:00"
+          "updated_at": "2026-09-30T10:56:21+08:00"
         },
         {
           "code": "1560",
           "name": "中砂",
-          "price": 968,
-          "price_text": "968",
-          "chg_pct": 1.26,
-          "vol_ratio": 0.23,
+          "price": 958,
+          "price_text": "958",
+          "chg_pct": 0.21,
+          "vol_ratio": 0.33,
           "lamp": null,
           "note": "",
-          "updated_at": "2026-09-30T09:48:05+08:00"
+          "updated_at": "2026-09-30T10:56:21+08:00"
         },
         {
           "code": "2241",
           "name": "艾姆勒",
-          "price": 45.1,
-          "price_text": "45.10",
-          "chg_pct": 2.5,
-          "vol_ratio": 1.27,
+          "price": 47.48,
+          "price_text": "47.48",
+          "chg_pct": 7.91,
+          "vol_ratio": 3.93,
           "lamp": null,
           "note": "",
-          "updated_at": "2026-09-30T09:48:05+08:00"
+          "updated_at": "2026-09-30T10:56:21+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 通常為雙訊號（±7%＋放量）。"
