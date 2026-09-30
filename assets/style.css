@@ -174,3 +174,6 @@ body.dark .val.sell{color:var(--sell)}
   .wl-r .vol{white-space:nowrap;justify-self:end}
   .wl-r .vol .nodata{font-size:12px}
 }
+/* 💚 進入參考買進帶（參考）：與燈號（圓角實心）、估價位置（方角外框）區隔 */
+.gbadge{display:inline-flex;align-items:center;gap:2px;font-size:11.5px;font-weight:600;border-radius:999px;padding:1px 8px;white-space:nowrap;border:1.5px dotted var(--buy);color:var(--buy);background:transparent;margin-top:2px}
+.wl-r .badge{display:flex;flex-wrap:wrap;gap:3px;align-items:center}
