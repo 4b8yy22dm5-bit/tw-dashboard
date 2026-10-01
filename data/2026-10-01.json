@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-01",
   "date_label": "2026-10-01（四）",
-  "last_updated": "2026-10-01T08:47:23+08:00",
+  "last_updated": "2026-10-01T09:06:05+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -83,8 +83,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-01T09:06:05+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-01T09:06:05+08:00",
+        "note": "燈號同步（哨兵 09:06）：2330:note；0050:note；5234:note；3037:lamp,lamp_since,note；3324:note；2408:note；1560:note；2241:note；event 09:04 3037:y"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -96,7 +102,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價2488 +0.30% 量比≈0.10；無燈（MIS mid）",
+          "updated_at": "2026-10-01T09:06:05+08:00"
         },
         {
           "code": "0050",
@@ -106,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價112.1 +0.07% 量比≈0.03；無燈（MIS mid）",
+          "updated_at": "2026-10-01T09:06:05+08:00"
         },
         {
           "code": "5234",
@@ -116,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價309.5 +0.32% 量比≈0.15；無燈（MIS mid）",
+          "updated_at": "2026-10-01T09:06:05+08:00"
         },
         {
           "code": "3037",
@@ -125,8 +134,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "中價1212.5 +3.19% 量2692 avg20≈22117 量比≈0.12；|漲跌|≥3%→黃（MIS mid）",
+          "lamp_since": "09:04",
+          "updated_at": "2026-10-01T09:06:05+08:00"
         },
         {
           "code": "3324",
@@ -136,7 +147,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價1502.5 −1.80% 量比≈0.06；無燈（TPEx MIS mid）",
+          "updated_at": "2026-10-01T09:06:05+08:00"
         },
         {
           "code": "2408",
@@ -146,7 +158,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價511.5 −1.45% 量比≈0.08；無燈（MIS mid）",
+          "updated_at": "2026-10-01T09:06:05+08:00"
         },
         {
           "code": "1560",
@@ -156,7 +169,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價975.5 +1.30% 量比≈0.05；無燈（MIS mid）",
+          "updated_at": "2026-10-01T09:06:05+08:00"
         },
         {
           "code": "2241",
@@ -166,14 +180,25 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價45.62 −1.14% 量比≈0.24；無燈（MIS mid）",
+          "updated_at": "2026-10-01T09:06:05+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 通常為雙訊號（±7%＋放量）。"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:04",
+          "ticker": "3037",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "3037 欣興 {{chip:y}}｜首次黃：中價1212.5 +3.19% 量比≈0.12（|漲跌|≥3%；MIS mid）"
+          ]
+        }
+      ]
     }
   },
   "views": {
