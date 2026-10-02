@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-02",
   "date_label": "2026-10-02（五）",
-  "last_updated": "2026-10-02T08:55:03+08:00",
+  "last_updated": "2026-10-02T09:13:14+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -83,8 +83,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-02T09:13:14+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-02T09:13:14+08:00",
+        "note": "燈號同步（哨兵 09:13）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:note；3324:note；2408:note；1560:note；2241:note；event 09:12 5234:y"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -96,7 +102,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2502.5 −0.30% 量3382 avg20≈19355 量比≈0.17；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:13:14+08:00"
         },
         {
           "code": "0050",
@@ -106,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "112.425 −0.42% 量13346 avg20≈70709 量比≈0.19；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:13:14+08:00"
         },
         {
           "code": "5234",
@@ -115,8 +123,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "312.75 ＋3.39% 量172 avg20≈270 量比≈0.64；黃（|漲跌|≥3%；MIS mid）",
+          "lamp_since": "09:12",
+          "updated_at": "2026-10-02T09:13:14+08:00"
         },
         {
           "code": "3037",
@@ -126,7 +136,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1217.5 ＋0.21% 量2405 avg20≈17268 量比≈0.14；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:13:14+08:00"
         },
         {
           "code": "3324",
@@ -136,7 +147,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1527.5 ＋0.16% 量629 avg20≈3857 量比≈0.16；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:13:14+08:00"
         },
         {
           "code": "2408",
@@ -146,7 +158,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "526.5 ＋1.45% 量11034 avg20≈49959 量比≈0.22；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:13:14+08:00"
         },
         {
           "code": "1560",
@@ -156,7 +169,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "999 −0.10% 量220 avg20≈2089 量比≈0.11；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:13:14+08:00"
         },
         {
           "code": "2241",
@@ -166,14 +180,25 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "45.2 ＋2.61% 量544 avg20≈1871 量比≈0.29；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:13:14+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 通常為雙訊號（±7%＋放量）。"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:12",
+          "ticker": "5234",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "5234 達興材料 {{chip:y}}｜首次黃：312.75 ＋3.39% 量比≈0.64（|漲跌|≥3%；MIS mid）"
+          ]
+        }
+      ]
     }
   },
   "views": {
