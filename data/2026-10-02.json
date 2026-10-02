@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-02",
   "date_label": "2026-10-02（五）",
-  "last_updated": "2026-10-02T09:40:08+08:00",
+  "last_updated": "2026-10-02T09:50:51+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -83,7 +83,7 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": "2026-10-02T09:40:08+08:00",
+    "updated_at": "2026-10-02T09:50:51+08:00",
     "batches": [
       {
         "seq": 1,
@@ -99,6 +99,11 @@
         "seq": 3,
         "at": "2026-10-02T09:40:08+08:00",
         "note": "燈號同步（哨兵 09:40）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:note；3324:note；2408:note；1560:note；2241:lamp,lamp_since,note；event 09:39 5234:down；event 09:39 2241:clear"
+      },
+      {
+        "seq": 4,
+        "at": "2026-10-02T09:50:51+08:00",
+        "note": "燈號同步（哨兵 09:50）：2330:note；0050:note；5234:note；3037:note；3324:note；2408:note；1560:note；2241:note"
       }
     ],
     "watchlist": {
@@ -112,8 +117,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": "2497.5 −0.50% 量4808 avg20≈22664 量比≈0.21；無燈（MIS mid）",
-          "updated_at": "2026-10-02T09:40:08+08:00"
+          "note": "2497.5 −0.50% 量4911 avg20≈22664 量比≈0.22；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:50:51+08:00"
         },
         {
           "code": "0050",
@@ -123,8 +128,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": "112.325 −0.51% 量28432 avg20≈76021 量比≈0.37；無燈（MIS mid）",
-          "updated_at": "2026-10-02T09:40:08+08:00"
+          "note": "112.475 −0.38% 量30305 avg20≈76021 量比≈0.40；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:50:51+08:00"
         },
         {
           "code": "5234",
@@ -134,9 +139,9 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": "y",
-          "note": "310.5 ＋2.64% 量430 avg20≈286 量比≈1.50；黃（量比≥1.5×；自橘 since 09:24→09:39；MIS mid）",
+          "note": "310.25 ＋2.56% 量448 avg20≈286 量比≈1.57；黃（量比≥1.5×；續 since 09:39；MIS mid）",
           "lamp_since": "09:39",
-          "updated_at": "2026-10-02T09:40:08+08:00"
+          "updated_at": "2026-10-02T09:50:51+08:00"
         },
         {
           "code": "3037",
@@ -146,8 +151,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": "1227.5 ＋1.03% 量3455 avg20≈22117 量比≈0.16；無燈（MIS mid）",
-          "updated_at": "2026-10-02T09:40:08+08:00"
+          "note": "1227.5 ＋1.03% 量3917 avg20≈22117 量比≈0.18；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:50:51+08:00"
         },
         {
           "code": "3324",
@@ -157,8 +162,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": "1512.5 −0.82% 量1106 avg20≈3366 量比≈0.33；無燈（MIS mid；avg20 Yahoo）",
-          "updated_at": "2026-10-02T09:40:08+08:00"
+          "note": "1507.5 −1.15% 量1154 avg20≈3366 量比≈0.34；無燈（MIS mid；avg20 Yahoo）",
+          "updated_at": "2026-10-02T09:50:51+08:00"
         },
         {
           "code": "2408",
@@ -168,8 +173,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": "525.5 ＋1.25% 量18661 avg20≈54606 量比≈0.34；無燈（MIS mid）",
-          "updated_at": "2026-10-02T09:40:08+08:00"
+          "note": "528.5 ＋1.83% 量19797 avg20≈54606 量比≈0.36；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:50:51+08:00"
         },
         {
           "code": "1560",
@@ -179,8 +184,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": "995.5 −0.45% 量593 avg20≈2197 量比≈0.27；無燈（MIS mid）",
-          "updated_at": "2026-10-02T09:40:08+08:00"
+          "note": "1002 ＋0.20% 量662 avg20≈2197 量比≈0.30；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:50:51+08:00"
         },
         {
           "code": "2241",
@@ -190,8 +195,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": "44.625 ＋1.31% 量909 avg20≈1780 量比≈0.51；無燈（自黃清除 since 09:24→09:39；MIS mid）",
-          "updated_at": "2026-10-02T09:40:08+08:00",
+          "note": "44.65 ＋1.36% 量1002 avg20≈1780 量比≈0.56；無燈（MIS mid）",
+          "updated_at": "2026-10-02T09:50:51+08:00",
           "lamp_since": null
         }
       ],
