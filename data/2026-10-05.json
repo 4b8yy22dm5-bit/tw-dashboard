@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-05",
   "date_label": "2026-10-05（一）",
-  "last_updated": "2026-10-05T08:46:05+08:00",
+  "last_updated": "2026-10-05T09:08:54+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -83,8 +83,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-05T09:08:54+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-05T09:08:54+08:00",
+        "note": "燈號同步（哨兵 09:07）：2330:note；0050:note；5234:note；3037:lamp,lamp_since,note；3324:note；2408:note；1560:note；2241:note；event 09:07 3037:y"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -96,7 +102,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2565 ＋2.60% 量6598 avg20≈21636 量比≈0.30；無燈（MIS last 09:06）",
+          "updated_at": "2026-10-05T09:08:54+08:00"
         },
         {
           "code": "0050",
@@ -106,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "115.825 ＋2.68% 量12851 avg20≈73304 量比≈0.18；無燈（MIS mid 09:06）",
+          "updated_at": "2026-10-05T09:08:54+08:00"
         },
         {
           "code": "5234",
@@ -116,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "317.25 ＋1.68% 量44 avg20≈320 量比≈0.14；無燈（MIS mid 09:06）",
+          "updated_at": "2026-10-05T09:08:54+08:00"
         },
         {
           "code": "3037",
@@ -125,8 +134,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "1362.5 ＋4.41% 量3768 avg20≈17797 量比≈0.21；黃（|漲跌|≥3%；MIS mid 09:06）",
+          "lamp_since": "09:07",
+          "updated_at": "2026-10-05T09:08:54+08:00"
         },
         {
           "code": "3324",
@@ -136,7 +147,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1517.5 ＋0.83% 量343 avg20≈3659 量比≈0.09；無燈（MIS mid 09:06）",
+          "updated_at": "2026-10-05T09:08:54+08:00"
         },
         {
           "code": "2408",
@@ -146,7 +158,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "523.5 －0.48% 量7483 avg20≈51008 量比≈0.15；無燈（MIS mid 09:06）",
+          "updated_at": "2026-10-05T09:08:54+08:00"
         },
         {
           "code": "1560",
@@ -156,7 +169,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1017.5 ＋0.25% 量175 avg20≈2197 量比≈0.08；無燈（MIS mid 09:07）",
+          "updated_at": "2026-10-05T09:08:54+08:00"
         },
         {
           "code": "2241",
@@ -166,14 +180,25 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "43.925 ＋0.40% 量258 avg20≈2050 量比≈0.13；無燈（MIS mid 09:06）",
+          "updated_at": "2026-10-05T09:08:54+08:00"
         }
       ],
       "caption": "門檻：黃｜漲跌|≥3% 或 量比≥1.5×；橘｜漲跌|≥5% 或 量比≥2×；紅｜漲跌|≥7% 且 量比≥2×。💚＝價≤參考買進帶上緣（參考，非建議）。"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:07",
+          "ticker": "3037",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "3037 欣興 {{chip:y}}｜3037 欣興 1362.5 ＋4.41%（MIS 買賣中價），量比≈0.21；黃（|漲跌|≥3%）"
+          ]
+        }
+      ]
     }
   },
   "views": {
