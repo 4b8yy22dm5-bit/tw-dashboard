@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-05",
   "date_label": "2026-10-05（一）",
-  "last_updated": "2026-10-05T09:49:23+08:00",
+  "last_updated": "2026-10-05T09:51:17+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -82,8 +82,8 @@
     }
   },
   "intraday": {
-    "status": "pre",
-    "updated_at": "2026-10-05T09:49:23+08:00",
+    "status": "open",
+    "updated_at": "2026-10-05T09:51:17+08:00",
     "batches": [
       {
         "seq": 1,
@@ -104,99 +104,104 @@
         "seq": 4,
         "at": "2026-10-05T09:49:23+08:00",
         "note": "燈號同步（哨兵 09:49）：2330:note；0050:note；5234:note；3037:note；3324:note；2408:note；1560:note；2241:note"
+      },
+      {
+        "seq": 5,
+        "at": "2026-10-05T09:51:17+08:00",
+        "note": "09:50 盤中報價批次（TWSE MIS 買賣中價 09:49–09:50；量比＝今日量／20 日均量，均量取自自選股哨兵）"
       }
     ],
     "watchlist": {
-      "title_note": "盤中｜量比＝今日量／20 日均量",
+      "title_note": "盤中 09:50｜價＝MIS 買賣中價（尚無成交價時）｜量比＝今日量／20 日均量",
       "rows": [
         {
           "code": "2330",
           "name": "台積電",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 2572.5,
+          "price_text": "2,572.5",
+          "chg_pct": 2.9,
+          "vol_ratio": 0.54,
           "lamp": null,
           "note": "2572.5 ＋2.90% 量11585 avg20≈21636 量比≈0.54；無燈（MIS mid 09:48）",
-          "updated_at": "2026-10-05T09:49:23+08:00"
+          "updated_at": "2026-10-05T09:51:17+08:00"
         },
         {
           "code": "0050",
           "name": "元大台灣50",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 115.975,
+          "price_text": "115.975",
+          "chg_pct": 2.81,
+          "vol_ratio": 0.64,
           "lamp": null,
           "note": "115.975 ＋2.81% 量46502 avg20≈73304 量比≈0.63；無燈（MIS mid 09:48）",
-          "updated_at": "2026-10-05T09:49:23+08:00"
+          "updated_at": "2026-10-05T09:51:17+08:00"
         },
         {
           "code": "5234",
           "name": "達興材料",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 313.5,
+          "price_text": "313.5",
+          "chg_pct": 0.48,
+          "vol_ratio": 0.46,
           "lamp": null,
           "note": "313.5 ＋0.48% 量148 avg20≈320 量比≈0.46；無燈（MIS mid 09:48）",
-          "updated_at": "2026-10-05T09:49:23+08:00"
+          "updated_at": "2026-10-05T09:51:17+08:00"
         },
         {
           "code": "3037",
           "name": "欣興",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 1392.5,
+          "price_text": "1,392.5",
+          "chg_pct": 6.7,
+          "vol_ratio": 0.76,
           "lamp": "o",
           "note": "1402.5 ＋7.47% 量13461 avg20≈17797 量比≈0.76；橘（續 since 09:22；|漲跌|≥5%；≥7%但量比<2×非紅）（MIS mid 09:48）",
           "lamp_since": "09:22",
-          "updated_at": "2026-10-05T09:49:23+08:00"
+          "updated_at": "2026-10-05T09:51:17+08:00"
         },
         {
           "code": "3324",
           "name": "雙鴻",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 1507.5,
+          "price_text": "1,507.5",
+          "chg_pct": 0.17,
+          "vol_ratio": 0.36,
           "lamp": null,
           "note": "1507.5 ＋0.17% 量1240 avg20≈3659 量比≈0.34；無燈（MIS mid 09:48）",
-          "updated_at": "2026-10-05T09:49:23+08:00"
+          "updated_at": "2026-10-05T09:51:17+08:00"
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 526.5,
+          "price_text": "526.5",
+          "chg_pct": 0.1,
+          "vol_ratio": 0.32,
           "lamp": null,
           "note": "526.5 ＋0.10% 量15689 avg20≈51008 量比≈0.31；無燈（MIS mid 09:48）",
-          "updated_at": "2026-10-05T09:49:23+08:00"
+          "updated_at": "2026-10-05T09:51:17+08:00"
         },
         {
           "code": "1560",
           "name": "中砂",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 1027.5,
+          "price_text": "1,027.5",
+          "chg_pct": 1.23,
+          "vol_ratio": 0.17,
           "lamp": null,
           "note": "1027.5 ＋1.23% 量362 avg20≈2197 量比≈0.16；無燈（MIS mid 09:48）",
-          "updated_at": "2026-10-05T09:49:23+08:00"
+          "updated_at": "2026-10-05T09:51:17+08:00"
         },
         {
           "code": "2241",
           "name": "艾姆勒",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 44.125,
+          "price_text": "44.125",
+          "chg_pct": 0.86,
+          "vol_ratio": 0.56,
           "lamp": null,
           "note": "44.25 ＋1.14% 量1119 avg20≈2050 量比≈0.55；無燈（MIS last 09:48）",
-          "updated_at": "2026-10-05T09:49:23+08:00",
+          "updated_at": "2026-10-05T09:51:17+08:00",
           "lamp_since": null
         }
       ],
