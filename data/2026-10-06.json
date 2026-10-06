@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-06",
+  "date_label": "2026-10-06（二）",
+  "last_updated": "2026-10-06T09:47:04+08:00",
+  "default_tab": "pm",
+  "valuation": {
+    "5234": {
+      "name": "達興材料",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        120,
+        250
+      ],
+      "sell": [
+        300,
+        380
+      ],
+      "base": 275,
+      "bear": 122,
+      "bull": 378,
+      "revised_today": false,
+      "reason": "今年E 低確信度"
+    },
+    "2241": {
+      "name": "艾姆勒",
+      "baseline": null,
+      "reason": "虧損中，無估價帶"
+    },
+    "2330": {
+      "name": "台積電",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        1510,
+        2180
+      ],
+      "sell": [
+        2660,
+        3770
+      ],
+      "base": 2422,
+      "bear": 1507,
+      "bull": 3769,
+      "revised_today": false
+    },
+    "3037": {
+      "name": "欣興",
+      "baseline": "v2026-09-29-1",
+      "source": "估價參謀",
+      "buy": [
+        190,
+        500
+      ],
+      "sell": [
+        610,
+        945
+      ],
+      "base": 554,
+      "bear": 189,
+      "bull": 945,
+      "revised_today": false,
+      "reason": "暫定、低確信度（基本面更新；待 FactSet 更新或 Q3 財報轉正式）"
+    },
+    "2408": {
+      "name": "南亞科",
+      "baseline": "v2026-09-23-1",
+      "source": "估價參謀",
+      "buy": [
+        380,
+        510
+      ],
+      "sell": [
+        620,
+        740
+      ],
+      "base": 566,
+      "bear": 378,
+      "bull": 741,
+      "revised_today": false
+    }
+  },
+  "intraday": {
+    "status": "pre",
+    "updated_at": null,
+    "batches": [],
+    "watchlist": {
+      "title_note": "盤中｜量比＝今日量／20 日均量",
+      "rows": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "0050",
+          "name": "元大台灣50",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "5234",
+          "name": "達興材料",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "3324",
+          "name": "雙鴻",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "2408",
+          "name": "南亞科",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "1560",
+          "name": "中砂",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        },
+        {
+          "code": "2241",
+          "name": "艾姆勒",
+          "price": null,
+          "price_text": null,
+          "chg_pct": null,
+          "vol_ratio": null,
+          "lamp": null,
+          "note": ""
+        }
+      ],
+      "caption": "門檻：黃｜漲跌|≥3% 或 量比≥1.5×；橘｜漲跌|≥5% 或 量比≥2×；紅｜漲跌|≥7% 且 量比≥2×。💚＝價≤參考買進帶上緣（參考，非建議）。"
+    },
+    "timeline": {
+      "title_note": "watchlist-alert bot",
+      "events": []
+    }
+  },
+  "views": {
+    "am": {
+      "meta": "晨間簡報今日未發布（盤中批次自 09:45 起更新，見「收盤」分頁）",
+      "timeline": {
+        "empty": "今日無資料（尚未開盤）— 見「收盤」分頁"
+      }
+    },
+    "pm": {
+      "meta": "",
+      "watchlist": {
+        "source": "intraday"
+      },
+      "timeline": {
+        "source": "intraday"
+      }
+    }
+  },
+  "sources": []
+}
