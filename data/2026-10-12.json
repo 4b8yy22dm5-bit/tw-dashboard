@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-12",
   "date_label": "2026-10-12（一）｜國慶連假（10/9–11）後首個交易日",
-  "last_updated": "2026-10-12T08:52:33+08:00",
+  "last_updated": "2026-10-12T09:10:55+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -83,8 +83,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-12T09:10:55+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-12T09:10:55+08:00",
+        "note": "燈號同步（哨兵 09:10）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:note；3324:lamp,lamp_since,note；2408:note；1560:note；2241:lamp,lamp_since,note；event 09:10 5234:y；event 09:10 3324:y；event 09:10 2241:y"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -96,7 +102,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2517.5／-1.27%、量比≈0.26、觸發：無、MIS mid t=09:09:55",
+          "updated_at": "2026-10-12T09:10:55+08:00"
         },
         {
           "code": "0050",
@@ -106,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "113.5／-1.26%、量比≈0.26、觸發：無、MIS last t=09:10:04",
+          "updated_at": "2026-10-12T09:10:55+08:00"
         },
         {
           "code": "5234",
@@ -115,8 +123,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "320.75／-3.97%、量比≈0.40、觸發：跌≥3%、MIS mid t=09:10:08",
+          "lamp_since": "09:10",
+          "updated_at": "2026-10-12T09:10:55+08:00"
         },
         {
           "code": "3037",
@@ -126,7 +136,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1267.5／-0.20%、量比≈0.09、觸發：無、MIS mid t=09:10:01",
+          "updated_at": "2026-10-12T09:10:55+08:00"
         },
         {
           "code": "3324",
@@ -135,8 +146,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "1457.5／-4.11%、量比≈0.13、觸發：跌≥3%、MIS mid t=09:10:00；20日均量Yahoo",
+          "lamp_since": "09:10",
+          "updated_at": "2026-10-12T09:10:55+08:00"
         },
         {
           "code": "2408",
@@ -146,7 +159,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "522.5／-1.79%、量比≈0.13、觸發：無、MIS mid t=09:09:56",
+          "updated_at": "2026-10-12T09:10:55+08:00"
         },
         {
           "code": "1560",
@@ -156,7 +170,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "999.5／-1.04%、量比≈0.04、觸發：無、MIS mid t=09:09:56",
+          "updated_at": "2026-10-12T09:10:55+08:00"
         },
         {
           "code": "2241",
@@ -165,15 +180,45 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "52.55／+4.06%、量比≈0.42、觸發：漲≥3%、MIS mid t=09:10:00",
+          "lamp_since": "09:10",
+          "updated_at": "2026-10-12T09:10:55+08:00"
         }
       ],
       "caption": "門檻：黃｜漲跌|≥3% 或 量比≥1.5×；橘｜漲跌|≥5% 或 量比≥2×；紅｜漲跌|≥7% 且 量比≥2×。燈號以自選股哨兵為準。💚＝價≤參考買進帶上緣（參考，非建議）。"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:10",
+          "ticker": "5234",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "5234 達興材料 {{chip:y}}｜5234 達興材料 🟡黃 320.75／-3.97%、量比≈0.40（跌≥3%）；MIS mid t=09:10:08"
+          ]
+        },
+        {
+          "time": "09:10",
+          "ticker": "3324",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "3324 雙鴻 {{chip:y}}｜3324 雙鴻 🟡黃 1457.5／-4.11%、量比≈0.13（跌≥3%）；MIS mid t=09:10:00；20日均量Yahoo"
+          ]
+        },
+        {
+          "time": "09:10",
+          "ticker": "2241",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "2241 艾姆勒 {{chip:y}}｜2241 艾姆勒 🟡黃 52.55／+4.06%、量比≈0.42（漲≥3%）；MIS mid t=09:10:00"
+          ]
+        }
+      ]
     }
   },
   "views": {
