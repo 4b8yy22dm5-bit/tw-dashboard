@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-13",
   "date_label": "2026-10-13（二）｜費半 −2.67%、台指期夜盤 −399",
-  "last_updated": "2026-10-13T09:12:20+08:00",
+  "last_updated": "2026-10-13T09:12:39+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -83,12 +83,17 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": "2026-10-13T09:12:20+08:00",
+    "updated_at": "2026-10-13T09:12:39+08:00",
     "batches": [
       {
         "seq": 1,
         "at": "2026-10-13T09:12:20+08:00",
         "note": "燈號同步（哨兵 09:12）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:lamp,lamp_since,note；3324:note；2408:lamp,green,lamp_since,note；1560:note；2241:note；event 09:08 5234:y；event 09:08 3037:y；event 09:08 2"
+      },
+      {
+        "seq": 2,
+        "at": "2026-10-13T09:12:39+08:00",
+        "note": "燈號同步（哨兵 09:12）：0050:note；5234:note"
       }
     ],
     "watchlist": {
@@ -113,8 +118,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": "113／-1.59%、量比≈0.38、觸發：無、MIS mid t=09:08:34",
-          "updated_at": "2026-10-13T09:12:20+08:00"
+          "note": "112.975／-1.59%、量比≈0.38、觸發：無、MIS mid t=09:08:34",
+          "updated_at": "2026-10-13T09:12:39+08:00"
         },
         {
           "code": "5234",
@@ -124,9 +129,9 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": "y",
-          "note": "309.8／-3.05%、量比≈0.20、觸發：跌≥3%、＞綠上緣250、MIS mid t=09:08:24",
+          "note": "309.75／-3.05%、量比≈0.20、觸發：跌≥3%、＞綠上緣250、MIS mid t=09:08:24",
           "lamp_since": "09:08",
-          "updated_at": "2026-10-13T09:12:20+08:00"
+          "updated_at": "2026-10-13T09:12:39+08:00"
         },
         {
           "code": "3037",
