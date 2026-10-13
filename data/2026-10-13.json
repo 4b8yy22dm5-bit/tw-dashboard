@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-13",
   "date_label": "2026-10-13（二）｜費半 −2.67%、台指期夜盤 −399",
-  "last_updated": "2026-10-13T09:06:31+08:00",
+  "last_updated": "2026-10-13T09:12:20+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -83,8 +83,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-13T09:12:20+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-13T09:12:20+08:00",
+        "note": "燈號同步（哨兵 09:12）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:lamp,lamp_since,note；3324:note；2408:lamp,green,lamp_since,note；1560:note；2241:note；event 09:08 5234:y；event 09:08 3037:y；event 09:08 2"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -96,7 +102,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2500／-1.57%、量比≈0.27、觸發：無（＞綠上緣2180）、MIS z t=09:08:25",
+          "updated_at": "2026-10-13T09:12:20+08:00"
         },
         {
           "code": "0050",
@@ -106,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "113／-1.59%、量比≈0.38、觸發：無、MIS mid t=09:08:34",
+          "updated_at": "2026-10-13T09:12:20+08:00"
         },
         {
           "code": "5234",
@@ -115,8 +123,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "309.8／-3.05%、量比≈0.20、觸發：跌≥3%、＞綠上緣250、MIS mid t=09:08:24",
+          "lamp_since": "09:08",
+          "updated_at": "2026-10-13T09:12:20+08:00"
         },
         {
           "code": "3037",
@@ -125,8 +135,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "1197.5／-4.58%、量比≈0.18、觸發：跌≥3%、＞綠上緣500、MIS mid t=09:08:21",
+          "lamp_since": "09:08",
+          "updated_at": "2026-10-13T09:12:20+08:00"
         },
         {
           "code": "3324",
@@ -136,7 +148,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1512.5／-1.79%、量比≈0.08、觸發：無、20日均量TPEx、MIS mid t=09:08:30",
+          "updated_at": "2026-10-13T09:12:20+08:00"
         },
         {
           "code": "2408",
@@ -145,8 +158,11 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "503.5／-4.46%、量比≈0.38、觸發：跌≥3%、💚≤買進上緣510（v2026-09-23-1）、MIS mid t=09:08:26",
+          "green": true,
+          "lamp_since": "09:08",
+          "updated_at": "2026-10-13T09:12:20+08:00"
         },
         {
           "code": "1560",
@@ -156,7 +172,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "989／-1.10%、量比≈0.07、觸發：無、MIS mid t=09:08:22",
+          "updated_at": "2026-10-13T09:12:20+08:00"
         },
         {
           "code": "2241",
@@ -166,14 +183,52 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "51.3／-0.39%、量比≈0.13、觸發：無、MIS mid t=09:08:28",
+          "updated_at": "2026-10-13T09:12:20+08:00"
         }
       ],
       "caption": "門檻：黃｜漲跌|≥3% 或 量比≥1.5×；橘｜漲跌|≥5% 或 量比≥2×；紅｜漲跌|≥7% 且 量比≥2×。燈號以自選股哨兵為準。💚＝價≤參考買進帶上緣（參考，非建議）。"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:08",
+          "ticker": "5234",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "5234 達興材料 {{chip:y}}｜5234 達興材料 🟡黃 309.8／-3.05%、量比≈0.20（跌≥3%）；MIS mid t=09:08:24"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "3037",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "3037 欣興 {{chip:y}}｜3037 欣興 🟡黃 1197.5／-4.58%、量比≈0.18（跌≥3%）；MIS mid t=09:08:21"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "2408",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{chip:y}}｜2408 南亞科 🟡黃 503.5／-4.46%、量比≈0.38（跌≥3%）；MIS mid t=09:08:26"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 南亞科 💚綠 503.5≤買進上緣510（baseline v2026-09-23-1，data 2026-10-13）；參考、非買賣建議；MIS mid t=09:08:26"
+          ]
+        }
+      ]
     }
   },
   "views": {
