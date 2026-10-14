@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-14",
   "date_label": "2026-10-14（三）｜夜盤 +363、費半 −0.23%",
-  "last_updated": "2026-10-14T08:49:12+08:00",
+  "last_updated": "2026-10-14T09:10:38+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -81,8 +81,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-14T09:10:38+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-14T09:10:38+08:00",
+        "note": "燈號同步（哨兵 09:10）：2330:note；0050:note；5234:note；3037:note；3324:note；2408:green,note；1560:note；2241:note；event 09:07 2408:g"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -94,7 +100,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2505／+0.60%、量比≈0.11、觸發：無、MIS z t=09:07:35",
+          "updated_at": "2026-10-14T09:10:38+08:00"
         },
         {
           "code": "0050",
@@ -104,7 +111,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "112.9／+0.44%、量比≈0.07、觸發：無、MIS z t=09:07:24",
+          "updated_at": "2026-10-14T09:10:38+08:00"
         },
         {
           "code": "5234",
@@ -114,7 +122,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "300.5／+0.00%、量比≈0.11、觸發：無、MIS mid t=09:07:06",
+          "updated_at": "2026-10-14T09:10:38+08:00"
         },
         {
           "code": "3037",
@@ -124,7 +133,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1167.5／-1.06%、量比≈0.16、觸發：無；MOPS昨20:13工安意外／部分停工（公司稱不影響營運；Jev alert_tier=red@0.59 vs news_worth=0.35→不升色燈）、MIS mid t=09:07:31",
+          "updated_at": "2026-10-14T09:10:38+08:00"
         },
         {
           "code": "3324",
@@ -134,7 +144,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1492.5／+1.19%、量比≈0.06、觸發：無、MIS mid t=09:07:16",
+          "updated_at": "2026-10-14T09:10:38+08:00"
         },
         {
           "code": "2408",
@@ -144,7 +155,9 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "486.25／-0.36%、量比≈0.19、觸發：無＋💚≤595（v2026-10-13-1，參考、非買賣建議）、MIS mid t=09:07:41",
+          "green": true,
+          "updated_at": "2026-10-14T09:10:38+08:00"
         },
         {
           "code": "1560",
@@ -154,7 +167,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "937.5／-1.32%、量比≈0.10、觸發：無、MIS mid t=09:07:32",
+          "updated_at": "2026-10-14T09:10:38+08:00"
         },
         {
           "code": "2241",
@@ -164,14 +178,25 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "50.70／+0.40%、量比≈0.10、觸發：無、MIS mid t=09:07:25",
+          "updated_at": "2026-10-14T09:10:38+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:07",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 南亞科 💚綠 486.25≤買進上緣595（baseline v2026-10-13-1，data 2026-10-14）；參考、非買賣建議；MIS mid t=09:07:41"
+          ]
+        }
+      ]
     }
   },
   "views": {
