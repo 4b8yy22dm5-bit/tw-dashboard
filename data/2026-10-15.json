@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-15",
   "date_label": "2026-10-15（四）｜台積電法說日",
-  "last_updated": "2026-10-15T08:48:12+08:00",
+  "last_updated": "2026-10-15T09:19:25+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -96,8 +96,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-15T09:19:25+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-15T09:19:25+08:00",
+        "note": "燈號同步（哨兵 09:19）：2330:note；0050:note；5234:note；3037:lamp,lamp_since,note；3324:lamp,lamp_since,note；2408:lamp,green,lamp_since,note；1560:note；2241:note；event 09:18 2408:o；event 09:18 3037:o；event 09:18 3"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -109,7 +115,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2450／−1.61%、量比≈0.59、觸發：無、MIS trade.z t=09:18:50",
+          "updated_at": "2026-10-15T09:19:25+08:00"
         },
         {
           "code": "0050",
@@ -119,7 +126,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "109.65／−2.96%、量比≈1.06、觸發：無、MIS trade.z t=09:18:39",
+          "updated_at": "2026-10-15T09:19:25+08:00"
         },
         {
           "code": "5234",
@@ -129,7 +137,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "294／−2.65%、量比≈0.15、觸發：無、MIS trade.z t=09:18:15",
+          "updated_at": "2026-10-15T09:19:25+08:00"
         },
         {
           "code": "3037",
@@ -138,8 +147,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "1105／−6.75%、量比≈0.35、觸發：|chg|≥5%→🟠；MOPS 10/14 16:58自地委建興建廠房（第20款；不另升燈）、MIS trade.z t=09:18:31",
+          "lamp_since": "09:18",
+          "updated_at": "2026-10-15T09:19:25+08:00"
         },
         {
           "code": "3324",
@@ -148,8 +159,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "1425／−4.36%、量比≈0.17、觸發：|chg|≥3%→🟡、MIS trade.z t=09:18:40",
+          "lamp_since": "09:18",
+          "updated_at": "2026-10-15T09:19:25+08:00"
         },
         {
           "code": "2408",
@@ -158,8 +171,11 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "449／−6.56%、量比≈0.37、觸發：|chg|≥5%→🟠＋💚≤595（v2026-10-13-1，參考、非買賣建議）、MIS trade.z t=09:18:46",
+          "green": true,
+          "lamp_since": "09:18",
+          "updated_at": "2026-10-15T09:19:25+08:00"
         },
         {
           "code": "1560",
@@ -169,7 +185,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "928／−2.11%、量比≈0.16、觸發：無、MIS trade.z t=09:18:04",
+          "updated_at": "2026-10-15T09:19:25+08:00"
         },
         {
           "code": "2241",
@@ -179,14 +196,52 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "49.4／＋2.07%、量比≈0.15、觸發：無、MIS trade.z t=09:18:55",
+          "updated_at": "2026-10-15T09:19:25+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:18",
+          "ticker": "2408",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{chip:o}}｜2408 南亞科 🟠橘 449／−6.56%、量比≈0.37；|chg|≥5%→🟠；MIS trade.z t=09:18:46"
+          ]
+        },
+        {
+          "time": "09:18",
+          "ticker": "3037",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "3037 欣興 {{chip:o}}｜3037 欣興 🟠橘 1105／−6.75%、量比≈0.35；|chg|≥5%→🟠；MIS trade.z t=09:18:31"
+          ]
+        },
+        {
+          "time": "09:18",
+          "ticker": "3324",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "3324 雙鴻 {{chip:y}}｜3324 雙鴻 🟡黃 1425／−4.36%、量比≈0.17；|chg|≥3%→🟡；MIS trade.z t=09:18:40"
+          ]
+        },
+        {
+          "time": "09:18",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 南亞科 💚綠 449≤買進上緣595（baseline v2026-10-13-1，data 2026-10-15）；參考、非買賣建議；MIS trade.z t=09:18:46"
+          ]
+        }
+      ]
     }
   },
   "views": {
