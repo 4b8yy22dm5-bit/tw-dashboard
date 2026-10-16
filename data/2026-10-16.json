@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-16",
   "date_label": "2026-10-16（五）",
-  "last_updated": "2026-10-16T08:51:13+08:00",
+  "last_updated": "2026-10-16T09:13:39+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -96,8 +96,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-16T09:13:39+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-16T09:13:39+08:00",
+        "note": "燈號同步（哨兵 09:11）：2330:note；0050:note；5234:note；3037:note；3324:note；2408:lamp,green,lamp_since,note；1560:note；2241:lamp,lamp_since,note；event 09:11 2408:y；event 09:11 2408:g；event 09:11 2241:y"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -109,7 +115,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2437.5／−0.10%、量比≈0.28、無觸發（>買進上緣2180，非綠）；MOPS 10/15 15:21 Q3 EPS 29.43（Jev alert_tier=none 0.91，不另升燈）、MIS 買賣中價 t=09:11:10",
+          "updated_at": "2026-10-16T09:13:39+08:00"
         },
         {
           "code": "0050",
@@ -119,7 +126,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "109.25／+0.32%、量比≈0.12、無觸發（未建估價基準不判綠）、MIS trade.z t=09:10:24",
+          "updated_at": "2026-10-16T09:13:39+08:00"
         },
         {
           "code": "5234",
@@ -129,7 +137,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "291.75／+0.95%、量比≈0.03、無觸發（>買進上緣250，非綠）、MIS 買賣中價 t=09:09:23",
+          "updated_at": "2026-10-16T09:13:39+08:00"
         },
         {
           "code": "3037",
@@ -139,7 +148,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1097.5／+2.09%、量比≈0.17、無觸發（>買進上緣500，非綠）；MOPS 10/15 取得廠務工程3.48億（Jev none 0.99，不另升燈）、MIS 買賣中價 t=09:10:51",
+          "updated_at": "2026-10-16T09:13:39+08:00"
         },
         {
           "code": "3324",
@@ -149,7 +159,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1402.5／−0.53%、量比≈0.08、無觸發（未建估價基準不判綠）、MIS(otc) 買賣中價 t=09:09:55",
+          "updated_at": "2026-10-16T09:13:39+08:00"
         },
         {
           "code": "2408",
@@ -158,8 +169,11 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "452.75／+3.01%、量比≈0.22、觸發：|chg|≥3%→🟡（邊界，Jev alert_tier=yellow 0.95）＋💚≤595（v2026-10-13-1；參考、非買賣建議）；MOPS 10/15 取得廠務設備2筆（不另升燈）、MIS 買賣中價 t=09:10:06",
+          "green": true,
+          "lamp_since": "09:11",
+          "updated_at": "2026-10-16T09:13:39+08:00"
         },
         {
           "code": "1560",
@@ -169,7 +183,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "901.5／−0.17%、量比≈0.09、無觸發（>買進上緣493 v2026-10-14-1，非綠）、MIS 買賣中價 t=09:09:58",
+          "updated_at": "2026-10-16T09:13:39+08:00"
         },
         {
           "code": "2241",
@@ -178,15 +193,45 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "48.125／+3.05%、量比≈0.11、觸發：|chg|≥3%→🟡（邊界，Jev alert_tier=yellow 0.99；虧損不判綠）、MIS 買賣中價 t=09:10:00",
+          "lamp_since": "09:11",
+          "updated_at": "2026-10-16T09:13:39+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:11",
+          "ticker": "2408",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{chip:y}}｜2408 南亞科 🟡黃 452.75／+3.01%、量比≈0.22；|chg|≥3%（邊界，Jev yellow 0.95）；MIS 買賣中價 t=09:10:06"
+          ]
+        },
+        {
+          "time": "09:11",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 南亞科 💚綠 452.75 ≤ 買進帶上緣595（v2026-10-13-1；參考、非買賣建議）；MIS 買賣中價 t=09:10:06"
+          ]
+        },
+        {
+          "time": "09:11",
+          "ticker": "2241",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "2241 艾姆勒 {{chip:y}}｜2241 艾姆勒 🟡黃 48.125／+3.05%、量比≈0.11；|chg|≥3%（邊界，Jev yellow 0.99）；MIS 買賣中價 t=09:10:00"
+          ]
+        }
+      ]
     }
   },
   "views": {
