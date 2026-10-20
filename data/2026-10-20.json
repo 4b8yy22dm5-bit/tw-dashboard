@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-20",
   "date_label": "2026-10-20（二）｜台指期 10 月合約 10/21 結算",
-  "last_updated": "2026-10-20T09:42:14+08:00",
+  "last_updated": "2026-10-20T09:49:08+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -93,8 +93,8 @@
     }
   },
   "intraday": {
-    "status": "pre",
-    "updated_at": "2026-10-20T09:42:14+08:00",
+    "status": "open",
+    "updated_at": "2026-10-20T09:49:08+08:00",
     "batches": [
       {
         "seq": 1,
@@ -110,102 +110,107 @@
         "seq": 3,
         "at": "2026-10-20T09:42:14+08:00",
         "note": "燈號同步（哨兵 09:42）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:note；3324:lamp,lamp_since,note；2408:note；1560:note；2241:note；event 09:40 5234:y；event 09:40 3324:y"
+      },
+      {
+        "seq": 4,
+        "at": "2026-10-20T09:49:08+08:00",
+        "note": "09:48 盤中報價批次（TWSE／TPEx MIS 09:47:56–09:48:35，買賣中價；量比＝今日量／20 日均量，均量 STOCK_DAY／TPEx thru 115/10/19）"
       }
     ],
     "watchlist": {
-      "title_note": "盤中｜量比＝今日量／20 日均量",
+      "title_note": "盤中 09:48｜量比＝今日量／20 日均量",
       "rows": [
         {
           "code": "2330",
           "name": "台積電",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 2412.5,
+          "price_text": "2,412.5",
+          "chg_pct": -0.31,
+          "vol_ratio": 0.22,
           "lamp": null,
           "note": "2407.5／-0.52%、量比0.21、無觸發（>2310 非綠）、MIS 買賣中價 t=09:41:05",
-          "updated_at": "2026-10-20T09:42:14+08:00"
+          "updated_at": "2026-10-20T09:49:08+08:00"
         },
         {
           "code": "0050",
           "name": "元大台灣50",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 108.2,
+          "price_text": "108.20",
+          "chg_pct": 0.05,
+          "vol_ratio": 0.3,
           "lamp": null,
           "note": "108.175／+0.02%、量比0.29、無觸發、MIS 買賣中價 t=09:40:44",
-          "updated_at": "2026-10-20T09:42:14+08:00"
+          "updated_at": "2026-10-20T09:49:08+08:00"
         },
         {
           "code": "5234",
           "name": "達興材料",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 297.75,
+          "price_text": "297.75",
+          "chg_pct": 3.39,
+          "vol_ratio": 0.14,
           "lamp": "y",
           "note": "299.25／+3.91%、量比0.14、漲幅≥3% 黃（僅價量）、MIS 買賣中價 t=09:39:56（高300.5）",
-          "updated_at": "2026-10-20T09:42:14+08:00",
+          "updated_at": "2026-10-20T09:49:08+08:00",
           "lamp_since": "09:40"
         },
         {
           "code": "3037",
           "name": "欣興",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 1112.5,
+          "price_text": "1,112.5",
+          "chg_pct": -0.67,
+          "vol_ratio": 0.34,
           "lamp": null,
           "note": "1112.5／-0.67%、量比0.31、無觸發、MIS 買賣中價 t=09:40:36",
-          "updated_at": "2026-10-20T09:42:14+08:00"
+          "updated_at": "2026-10-20T09:49:08+08:00"
         },
         {
           "code": "3324",
           "name": "雙鴻",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 1425,
+          "price_text": "1,425",
+          "chg_pct": 3.26,
+          "vol_ratio": 0.33,
           "lamp": "y",
           "note": "1440／+4.35%、量比0.28、漲幅≥3% 黃（僅價量，MOPS 無新公告）、TPEx MIS 買賣中價 t=09:40:45（高1450）",
-          "updated_at": "2026-10-20T09:42:14+08:00",
+          "updated_at": "2026-10-20T09:49:08+08:00",
           "lamp_since": "09:40"
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 431.25,
+          "price_text": "431.25",
+          "chg_pct": -1.09,
+          "vol_ratio": 0.32,
           "lamp": null,
           "note": "429.75／-1.43%、量比0.29、無觸發、💚≤595（v2026-10-13-1，參考、非買賣建議）、MIS 買賣中價 t=09:40:56",
           "green": true,
-          "updated_at": "2026-10-20T09:42:14+08:00"
+          "updated_at": "2026-10-20T09:49:08+08:00"
         },
         {
           "code": "1560",
           "name": "中砂",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 899,
+          "price_text": "899",
+          "chg_pct": 3.69,
+          "vol_ratio": 0.33,
           "lamp": null,
           "note": "890.5／+2.71%、量比0.26、無觸發、MIS 買賣中價 t=09:40:19",
-          "updated_at": "2026-10-20T09:42:14+08:00"
+          "updated_at": "2026-10-20T09:49:08+08:00"
         },
         {
           "code": "2241",
           "name": "艾姆勒",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 50.6,
+          "price_text": "50.60",
+          "chg_pct": 4.22,
+          "vol_ratio": 0.44,
           "lamp": "y",
           "note": "50.25／+3.50%、量比0.43、漲幅≥3% 黃延續（僅價量）、MIS 買賣中價 t=09:41:07（高51.8）",
           "lamp_since": "09:27",
-          "updated_at": "2026-10-20T09:42:14+08:00"
+          "updated_at": "2026-10-20T09:49:08+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
@@ -256,6 +261,13 @@
           "src": "sentry",
           "lines": [
             "3324 雙鴻 {{chip:y}}｜3324 雙鴻 1440／+4.35%、量比0.28，漲幅≥3% 首次黃燈（僅價量，TPEx MIS 買賣中價 t=09:40:45；MOPS 無新公告）"
+          ]
+        },
+        {
+          "time": "09:48",
+          "lines": [
+            "2330 台積電{{down:−0.31%}}・量 0.22×；0050 元大台灣50{{up:+0.05%}}・量 0.30×；5234 達興材料{{chip:y}}{{up:+3.39%}}・量 0.14×；3037 欣興{{down:−0.67%}}・量 0.34×",
+            "3324 雙鴻{{chip:y}}{{up:+3.26%}}・量 0.33×；2408 南亞科{{green}}{{down:−1.09%}}・量 0.32×；1560 中砂{{up:+3.69%}}・量 0.33×；2241 艾姆勒{{chip:y}}{{up:+4.22%}}・量 0.44× {{src:TWSE／TPEx MIS 09:47:56–09:48:35}}"
           ]
         }
       ]
