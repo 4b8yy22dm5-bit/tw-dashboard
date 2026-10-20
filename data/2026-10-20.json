@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-20",
   "date_label": "2026-10-20（二）｜台指期 10 月合約 10/21 結算",
-  "last_updated": "2026-10-20T08:45:10+08:00",
+  "last_updated": "2026-10-20T09:10:40+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,8 +94,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-20T09:10:40+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-20T09:10:40+08:00",
+        "note": "燈號同步（哨兵 09:10）：2330:note；0050:note；5234:note；3037:note；3324:note；2408:green,note；1560:note；2241:lamp,lamp_since,note；event 09:09 2408:g；event 09:10 2241:o"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -107,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2402.5／-0.72%、量比0.12、無觸發、MIS 買賣中價 t=09:09:40",
+          "updated_at": "2026-10-20T09:10:40+08:00"
         },
         {
           "code": "0050",
@@ -117,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "107.525／-0.58%、量比0.15、無觸發、MIS 買賣中價 t=09:09:29",
+          "updated_at": "2026-10-20T09:10:40+08:00"
         },
         {
           "code": "5234",
@@ -127,7 +135,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "292.25／+1.48%、量比0.04、無觸發、MIS 買賣中價 t=09:08:57",
+          "updated_at": "2026-10-20T09:10:40+08:00"
         },
         {
           "code": "3037",
@@ -137,7 +146,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1092.5／-2.46%、量比0.15、無觸發、MIS 買賣中價 t=09:09:21",
+          "updated_at": "2026-10-20T09:10:40+08:00"
         },
         {
           "code": "3324",
@@ -147,7 +157,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "1387.5／+0.54%、量比0.07、無觸發、MIS 買賣中價 t=09:09:24",
+          "updated_at": "2026-10-20T09:10:40+08:00"
         },
         {
           "code": "2408",
@@ -157,7 +168,9 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "426.75／-2.12%、量比0.12、無觸發、💚≤595（v2026-10-13-1，參考、非買賣建議）、MIS 買賣中價 t=09:09:36",
+          "green": true,
+          "updated_at": "2026-10-20T09:10:40+08:00"
         },
         {
           "code": "1560",
@@ -167,7 +180,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "867／+0.00%、量比0.07、無觸發、MIS 買賣中價 t=09:09:06",
+          "updated_at": "2026-10-20T09:10:40+08:00"
         },
         {
           "code": "2241",
@@ -176,15 +190,36 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "51.2／+5.46%、量比0.15、漲幅≥5% 橘（僅價量）、MIS 買賣中價 t=09:10:05（高51.4）",
+          "lamp_since": "09:10",
+          "updated_at": "2026-10-20T09:10:40+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:09",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 南亞科 426.75 ≤ 買進帶上緣 595（v2026-10-13-1），參考、非買賣建議"
+          ]
+        },
+        {
+          "time": "09:10",
+          "ticker": "2241",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "2241 艾姆勒 {{chip:o}}｜2241 艾姆勒 51.2／+5.46%、量比0.15，漲幅≥5% 首次橘燈（僅價量，MIS 買賣中價）"
+          ]
+        }
+      ]
     }
   },
   "views": {
