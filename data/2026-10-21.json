@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-21",
   "date_label": "2026-10-21（三）｜台指期 10 月合約今日結算",
-  "last_updated": "2026-10-21T12:40:58+08:00",
+  "last_updated": "2026-10-21T12:54:01+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,7 +94,7 @@
   },
   "intraday": {
     "status": "open",
-    "updated_at": "2026-10-21T12:40:58+08:00",
+    "updated_at": "2026-10-21T12:54:01+08:00",
     "batches": [
       {
         "seq": 1,
@@ -200,103 +200,108 @@
         "seq": 21,
         "at": "2026-10-21T12:40:58+08:00",
         "note": "燈號同步（哨兵 12:40）：2330:note；0050:note；5234:note；3037:note；3324:note；2408:lamp,lamp_since,note；1560:note；2241:note；event 12:39 2408:y"
+      },
+      {
+        "seq": 22,
+        "at": "2026-10-21T12:54:01+08:00",
+        "note": "12:53 報價批次（TWSE/TPEx MIS 12:51:55–12:53:35；0050 成交價，其餘買賣中價；量比＝今日量／20 日均量，均量取 TWSE/TPEx 個股日成交資訊至 10/20）"
       }
     ],
     "watchlist": {
-      "title_note": "盤中 12:20｜量比＝今日量／20 日均量（MIS 成交價／買賣中價）",
+      "title_note": "盤中 12:53｜量比＝今日量／20 日均量（MIS 成交價／買賣中價）",
       "rows": [
         {
           "code": "2330",
           "name": "台積電",
-          "price": 2415.0,
-          "price_text": "2,415",
-          "chg_pct": 0.42,
-          "vol_ratio": 0.37,
+          "price": 2407.5,
+          "price_text": "2,407.5",
+          "chg_pct": 0.1,
+          "vol_ratio": 0.45,
           "lamp": null,
           "note": "2405／0.00%、量比0.42、無觸發（>2310 非綠）、成交價，MIS t≈12:40",
-          "updated_at": "2026-10-21T12:40:58+08:00"
+          "updated_at": "2026-10-21T12:54:01+08:00"
         },
         {
           "code": "0050",
           "name": "元大台灣50",
-          "price": 108.225,
-          "price_text": "108.225",
-          "chg_pct": 0.91,
-          "vol_ratio": 0.4,
+          "price": 108.0,
+          "price_text": "108.00",
+          "chg_pct": 0.7,
+          "vol_ratio": 0.48,
           "lamp": null,
           "note": "108／+0.70%、量比0.45、無觸發、成交價，MIS t≈12:40",
-          "updated_at": "2026-10-21T12:40:58+08:00"
+          "updated_at": "2026-10-21T12:54:01+08:00"
         },
         {
           "code": "5234",
           "name": "達興材料",
-          "price": 296.5,
-          "price_text": "296.5",
-          "chg_pct": 1.54,
-          "vol_ratio": 0.14,
+          "price": 297.0,
+          "price_text": "297",
+          "chg_pct": 1.71,
+          "vol_ratio": 0.16,
           "lamp": null,
           "note": "297.25／+1.80%、量比0.15、無觸發、買賣中價，MIS t≈12:40",
-          "updated_at": "2026-10-21T12:40:58+08:00"
+          "updated_at": "2026-10-21T12:54:01+08:00"
         },
         {
           "code": "3037",
           "name": "欣興",
-          "price": 1092.5,
-          "price_text": "1,092.5",
-          "chg_pct": 3.55,
-          "vol_ratio": 0.98,
+          "price": 1097.5,
+          "price_text": "1,097.5",
+          "chg_pct": 4.03,
+          "vol_ratio": 1.04,
           "lamp": "y",
           "note": "1092.5／+3.55%、量比1.01、漲幅≥3% 黃燈延續（高1155）、買賣中價，MIS t≈12:40",
           "lamp_since": "10:58",
-          "updated_at": "2026-10-21T12:40:58+08:00"
+          "updated_at": "2026-10-21T12:54:01+08:00"
         },
         {
           "code": "3324",
           "name": "雙鴻",
-          "price": 1392.5,
-          "price_text": "1,392.5",
-          "chg_pct": -0.18,
-          "vol_ratio": 1.06,
+          "price": 1357.5,
+          "price_text": "1,357.5",
+          "chg_pct": -2.69,
+          "vol_ratio": 1.24,
           "lamp": null,
           "note": "1367.5／−1.97%、量比1.16、無觸發（高1515）、買賣中價，MIS t≈12:40",
           "lamp_since": null,
-          "updated_at": "2026-10-21T12:40:58+08:00"
+          "updated_at": "2026-10-21T12:54:01+08:00"
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "price": 434.75,
-          "price_text": "434.75",
-          "chg_pct": 3.02,
-          "vol_ratio": 0.47,
+          "price": 435.75,
+          "price_text": "435.75",
+          "chg_pct": 3.26,
+          "vol_ratio": 0.52,
           "lamp": "y",
           "note": "435.75／+3.26%、量比0.50、漲幅≥3% 黃燈再現；💚≤595（v2026-10-13-1）延續、買賣中價，MIS t≈12:40",
           "green": true,
-          "updated_at": "2026-10-21T12:40:58+08:00",
+          "updated_at": "2026-10-21T12:54:01+08:00",
           "lamp_since": "12:39"
         },
         {
           "code": "1560",
           "name": "中砂",
-          "price": 871.5,
-          "price_text": "871.5",
-          "chg_pct": 1.57,
-          "vol_ratio": 0.48,
+          "price": 871.0,
+          "price_text": "871",
+          "chg_pct": 1.52,
+          "vol_ratio": 0.55,
           "lamp": null,
           "note": "869／+1.28%、量比0.53、無觸發、買賣中價，MIS t≈12:40",
-          "updated_at": "2026-10-21T12:40:58+08:00",
+          "updated_at": "2026-10-21T12:54:01+08:00",
           "lamp_since": null
         },
         {
           "code": "2241",
           "name": "艾姆勒",
-          "price": 49.075,
-          "price_text": "49.075",
-          "chg_pct": 2.77,
-          "vol_ratio": 0.29,
+          "price": 49.025,
+          "price_text": "49.025",
+          "chg_pct": 2.67,
+          "vol_ratio": 0.3,
           "lamp": null,
           "note": "49.05／+2.72%、量比0.29、無觸發、買賣中價，MIS t≈12:40",
-          "updated_at": "2026-10-21T12:40:58+08:00",
+          "updated_at": "2026-10-21T12:54:01+08:00",
           "lamp_since": null
         }
       ],
