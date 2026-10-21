@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-21",
   "date_label": "2026-10-21（三）｜台指期 10 月合約今日結算",
-  "last_updated": "2026-10-21T08:48:58+08:00",
+  "last_updated": "2026-10-21T09:10:21+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,8 +94,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-21T09:10:21+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-21T09:10:21+08:00",
+        "note": "燈號同步（哨兵 09:10）：2330:note；0050:note；5234:note；3037:lamp,lamp_since,note；3324:lamp,lamp_since,note；2408:green,note；1560:note；2241:note；event 09:08 3324:o；event 09:08 3037:y；event 09:08 2408:g"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -107,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "2417.5／+0.52%、量比0.11、無觸發（>2310 非綠）、買賣中價，MIS t≈09:08–09:09",
+          "updated_at": "2026-10-21T09:10:21+08:00"
         },
         {
           "code": "0050",
@@ -117,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "108.625／+1.28%、量比0.09、無觸發、買賣中價，MIS t≈09:08–09:09",
+          "updated_at": "2026-10-21T09:10:21+08:00"
         },
         {
           "code": "5234",
@@ -127,7 +135,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "296.5／+1.54%、量比0.02、無觸發、買賣中價，MIS t≈09:08–09:09",
+          "updated_at": "2026-10-21T09:10:21+08:00"
         },
         {
           "code": "3037",
@@ -136,8 +145,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "1097.5／+4.03%、量比0.13、漲幅≥3% 黃燈首次（僅價量；高1125）、買賣中價，MIS t≈09:08–09:09",
+          "lamp_since": "09:08",
+          "updated_at": "2026-10-21T09:10:21+08:00"
         },
         {
           "code": "3324",
@@ -146,8 +157,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "1480／+6.09%、量比0.20、漲幅≥5% 橘燈首次（僅價量；高1490；MOPS 個股最新 115/09/29）、成交價，MIS t≈09:08–09:09",
+          "lamp_since": "09:08",
+          "updated_at": "2026-10-21T09:10:21+08:00"
         },
         {
           "code": "2408",
@@ -157,7 +170,9 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "433.75／+2.78%、量比0.11、無價量燈；💚≤595（v2026-10-13-1）、買賣中價，MIS t≈09:08–09:09",
+          "green": true,
+          "updated_at": "2026-10-21T09:10:21+08:00"
         },
         {
           "code": "1560",
@@ -167,7 +182,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "879.5／+2.51%、量比0.08、無觸發（>493 非綠）、買賣中價，MIS t≈09:08–09:09",
+          "updated_at": "2026-10-21T09:10:21+08:00"
         },
         {
           "code": "2241",
@@ -177,14 +193,43 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "48.7／+1.99%、量比0.03、無觸發（無估價帶）、買賣中價，MIS t≈09:08–09:09",
+          "updated_at": "2026-10-21T09:10:21+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:08",
+          "ticker": "3324",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "3324 雙鴻 {{chip:o}}｜3324 1480／+6.09%、量比0.20，漲幅≥5% 首次橘燈（僅價量）"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "3037",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "3037 欣興 {{chip:y}}｜3037 1097.5／+4.03%、量比0.13，漲幅≥3% 首次黃燈（僅價量）"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 433.75 ≤ 買進帶上緣595（v2026-10-13-1），參考、非買賣建議"
+          ]
+        }
+      ]
     }
   },
   "views": {
