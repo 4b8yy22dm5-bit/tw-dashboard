@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-22",
   "date_label": "2026-10-22（四）｜SPCX 大批解禁日（媒體）",
-  "last_updated": "2026-10-22T08:45:43+08:00",
+  "last_updated": "2026-10-22T09:12:02+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,8 +94,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-22T09:12:02+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-22T09:12:02+08:00",
+        "note": "燈號同步（哨兵 09:10）：2330:note；0050:note；5234:note；3037:lamp,lamp_since,note；3324:lamp,lamp_since,note；2408:green,note；1560:note；2241:note；event 09:10 3037:o；event 09:10 3324:o；event 09:10 2408:g"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -107,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "成交2430／+0.41%、量比0.13、無觸發（>2310 非綠）、成交價，MIS 09:10",
+          "updated_at": "2026-10-22T09:12:02+08:00"
         },
         {
           "code": "0050",
@@ -117,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價109.025／+0.81%、量比0.12、無觸發、買賣中價，MIS 09:10",
+          "updated_at": "2026-10-22T09:12:02+08:00"
         },
         {
           "code": "5234",
@@ -127,7 +135,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價299.25／+1.44%、量比0.03、無觸發、買賣中價，MIS 09:09",
+          "updated_at": "2026-10-22T09:12:02+08:00"
         },
         {
           "code": "3037",
@@ -136,8 +145,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價1172.5／+6.59%、量比0.26、漲幅≥5% 橘燈首次（高1180）、買賣中價，MIS 09:10",
+          "lamp_since": "09:10",
+          "updated_at": "2026-10-22T09:12:02+08:00"
         },
         {
           "code": "3324",
@@ -146,8 +157,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價1447.5／+5.27%、量比0.25、漲幅≥5% 橘燈首次（高1455）、買賣中價，TPEx MIS 09:10",
+          "lamp_since": "09:10",
+          "updated_at": "2026-10-22T09:12:02+08:00"
         },
         {
           "code": "2408",
@@ -157,7 +170,9 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價434.25／−0.52%、量比0.10、無價量燈；💚≤595（v2026-10-13-1）首次；MOPS 10/21 17:03 廠房興建工程1,600萬元（關係人）非重大、買賣中價，MIS 09:10",
+          "green": true,
+          "updated_at": "2026-10-22T09:12:02+08:00"
         },
         {
           "code": "1560",
@@ -167,7 +182,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "成交880／+0.34%、量比0.06、無觸發、成交價，MIS 09:10",
+          "updated_at": "2026-10-22T09:12:02+08:00"
         },
         {
           "code": "2241",
@@ -177,14 +193,43 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價48.45／−1.02%、量比0.05、無觸發、買賣中價，MIS 09:10",
+          "updated_at": "2026-10-22T09:12:02+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:10",
+          "ticker": "3037",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "3037 欣興 {{chip:o}}｜3037 欣興 1172.5／+6.59%、量比0.26，漲幅≥5% 首次橘燈（MIS 中價）"
+          ]
+        },
+        {
+          "time": "09:10",
+          "ticker": "3324",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "3324 雙鴻 {{chip:o}}｜3324 雙鴻 1447.5／+5.27%、量比0.25，漲幅≥5% 首次橘燈（TPEx MIS 中價）"
+          ]
+        },
+        {
+          "time": "09:10",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 南亞科 434.25 ≤ 買進帶上緣595（v2026-10-13-1）首次綠燈，參考、非買賣建議"
+          ]
+        }
+      ]
     }
   },
   "views": {
