@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-28",
   "date_label": "2026-10-28（三）",
-  "last_updated": "2026-10-28T08:51:05+08:00",
+  "last_updated": "2026-10-28T09:15:32+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,8 +94,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-28T09:15:32+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-28T09:15:32+08:00",
+        "note": "燈號同步（哨兵 09:16）：2330:note；0050:note；5234:note；3037:lamp,lamp_since,note；3324:lamp,lamp_since,note；2408:lamp,green,lamp_since,note；1560:lamp,lamp_since,note；2241:note；event 09:16 3037:o；event 09:16 3324"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -107,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價2422.5 +0.94%、量比0.17；高於買進帶上緣2310 共112.5；TWSE MIS 09:14",
+          "updated_at": "2026-10-28T09:15:32+08:00"
         },
         {
           "code": "0050",
@@ -117,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價108.33 +1.62%、量比0.08；TWSE MIS 09:14",
+          "updated_at": "2026-10-28T09:15:32+08:00"
         },
         {
           "code": "5234",
@@ -127,7 +135,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價289.5 +1.40%、量比0.01；高於買進帶上緣250 共39.5；TWSE MIS 09:13",
+          "updated_at": "2026-10-28T09:15:32+08:00"
         },
         {
           "code": "3037",
@@ -136,8 +145,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價1047.5 −1.18%、量比0.45；橘＝重大營運消息（10/27 晚 MOPS：Q3 財報、長交期設備預下單再增約509億、擬處分日本子公司意向書）；未用 Jev；TWSE MIS 09:14＋MOPS",
+          "lamp_since": "09:16",
+          "updated_at": "2026-10-28T09:15:32+08:00"
         },
         {
           "code": "3324",
@@ -146,8 +157,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價1407.5 +5.43%、量比0.21；橘＝漲≥5%；另列 TPEx 注意股（當沖比率，10/27）；TPEx MIS 09:14",
+          "lamp_since": "09:16",
+          "updated_at": "2026-10-28T09:15:32+08:00"
         },
         {
           "code": "2408",
@@ -156,8 +169,11 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "成交455 +3.17%、量比0.22；黃＝漲≥3%；綠＝≤595，在買進帶內（441–595，v2026-10-13-1）；10/27 晚 MOPS 取得機器設備約90.5億＋11.3億；TWSE MIS 09:14",
+          "green": true,
+          "lamp_since": "09:16",
+          "updated_at": "2026-10-28T09:15:32+08:00"
         },
         {
           "code": "1560",
@@ -166,8 +182,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "中價864 +3.85%、量比0.08；黃＝漲≥3%；高於買進帶上緣493 共371；TWSE MIS 09:14",
+          "lamp_since": "09:16",
+          "updated_at": "2026-10-28T09:15:32+08:00"
         },
         {
           "code": "2241",
@@ -177,14 +195,61 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價45.1 +1.58%、量比0.02；TWSE MIS 09:14",
+          "updated_at": "2026-10-28T09:15:32+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:16",
+          "ticker": "3037",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "3037 欣興 {{chip:o}}｜3037 首次橘：10/27 晚 MOPS（Q3 財報、設備預下單再增約509億、擬處分日本子公司）；中價1047.5 −1.18%、量比0.45"
+          ]
+        },
+        {
+          "time": "09:16",
+          "ticker": "3324",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "3324 雙鴻 {{chip:o}}｜3324 首次橘：中價1407.5 +5.43%、量比0.21；另列 TPEx 注意股"
+          ]
+        },
+        {
+          "time": "09:16",
+          "ticker": "2408",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{chip:y}}｜2408 首次黃：成交455 +3.17%、量比0.22"
+          ]
+        },
+        {
+          "time": "09:16",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 首次綠：455 ≤ 買進帶上緣595，在買進帶內（v2026-10-13-1，參考、非買賣建議）"
+          ]
+        },
+        {
+          "time": "09:16",
+          "ticker": "1560",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "1560 中砂 {{chip:y}}｜1560 首次黃：中價864 +3.85%、量比0.08"
+          ]
+        }
+      ]
     }
   },
   "views": {
