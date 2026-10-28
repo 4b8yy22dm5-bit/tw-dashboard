@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-28",
   "date_label": "2026-10-28（三）",
-  "last_updated": "2026-10-28T08:50:54+08:00",
+  "last_updated": "2026-10-28T08:51:05+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -624,7 +624,7 @@
   "sources": [
     "Yahoo Finance（美股指數／NDX／SOX／VIX／10Y／原油／匯率／日經／KOSPI／TSM／ASX／UMC／NVDA／AMD／AVGO／MU／AMAT／ARM／INTC／SMCI／LITE／COHR／META／GOOGL／MSFT／AAPL／AMZN／ORCL／SPCX／TSLA）{{src:查詢約 08:50 台北}}",
     "期交所 MIS 台指期 TXFK6（夜盤 05:00 收、日盤 08:49:04）",
-    "中央社（10/28 盤前）；工商時報（10/28 06:29 美股收盤；10/27 盤中焦點股）；三立（10/28 08:13 盤前）；經濟日報（10/27 21:46 美股早盤；10/26 法說行程）（10/27 10:33 南亞科）",
+    "中央社（10/28 盤前）；工商時報（10/28 美股收盤）；三立（10/28 盤前）；經濟日報（10/27 美股；10/26 法說行程）",
     "Capp Notes（10/27 盤後）；StockTwits／Yahoo Finance（10/27 SPCX）；AHI Journal（10/27 法說前瞻）；TDCC IR 平台（法說行程）",
     "證交所 FMTQIK／BFI82U／MI_INDEX（20261027）",
     "MIS 前收沿用（自選／衛星／權值 10/27 13:30）；自選股哨兵 10/27 收盤燈號（13:40）",
