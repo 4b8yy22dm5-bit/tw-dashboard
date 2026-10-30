@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-30",
   "date_label": "2026-10-30（五）",
-  "last_updated": "2026-10-30T08:46:05+08:00",
+  "last_updated": "2026-10-30T09:13:48+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,8 +94,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-10-30T09:13:48+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-10-30T09:13:48+08:00",
+        "note": "燈號同步（哨兵 09:13）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:lamp,lamp_since,note；3324:lamp,lamp_since,note；2408:lamp,green,lamp_since,note；1560:lamp,lamp_since,note；2241:lamp,lamp_since,note；eve"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -107,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價2367.5 −1.97%、量比0.18，無觸發；高於買進帶上緣2310 57.5；新 MOPS 10/29 14:05 取得廠房及附屬設施；MIS 09:12 買賣中價",
+          "updated_at": "2026-10-30T09:13:48+08:00"
         },
         {
           "code": "0050",
@@ -117,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價104.075 −2.96%、量比0.36，未達3%（邊界，盤中低103.95 −3.08%）；不判綠；MIS 09:11 買賣中價",
+          "updated_at": "2026-10-30T09:13:48+08:00"
         },
         {
           "code": "5234",
@@ -126,8 +134,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "中價275 −4.51%、量比0.13，首次黃（跌≥3%，純價量）；高於買進帶上緣250 25；MIS 09:11 買賣中價",
+          "lamp_since": "09:13",
+          "updated_at": "2026-10-30T09:13:48+08:00"
         },
         {
           "code": "3037",
@@ -136,8 +146,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價965.5 −7.16%、量比0.25，首次橘（跌≥5%，量未達2×故不升紅）；高於買進帶上緣500 465.5；新 MOPS 10/29 15:26 取得機器設備／廠務工程3則；MIS 09:11 買賣中價",
+          "lamp_since": "09:13",
+          "updated_at": "2026-10-30T09:13:48+08:00"
         },
         {
           "code": "3324",
@@ -146,8 +158,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "成交1320 −9.90%（近跌停）、量比0.25，首次橘（跌≥5%，量未達2×故不升紅）；MOPS 無新公告；本輪注意名單未列、處置無；不判綠；MIS 09:12 成交價",
+          "lamp_since": "09:13",
+          "updated_at": "2026-10-30T09:13:48+08:00"
         },
         {
           "code": "2408",
@@ -156,8 +170,11 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價437.25 −8.33%、量比0.29，首次橘（跌≥5%，量未達2×故不升紅）；低於買進帶下緣441 3.75（v2026-10-13-1）💚；MIS 09:11 買賣中價",
+          "green": true,
+          "lamp_since": "09:13",
+          "updated_at": "2026-10-30T09:13:48+08:00"
         },
         {
           "code": "1560",
@@ -166,8 +183,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價843.5 −5.01%、量比0.10，首次橘（跌≥5%，邊界；成交844約 −4.95%）；高於買進帶上緣493 350.5；MIS 09:12 買賣中價",
+          "lamp_since": "09:13",
+          "updated_at": "2026-10-30T09:13:48+08:00"
         },
         {
           "code": "2241",
@@ -176,15 +195,81 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價41.65 −5.13%、量比0.05，首次橘（跌≥5%，純價量）；不判綠；MIS 09:12 買賣中價",
+          "lamp_since": "09:13",
+          "updated_at": "2026-10-30T09:13:48+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:13",
+          "ticker": "5234",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "5234 達興材料 {{chip:y}}｜中價275 −4.51%、量比0.13，首次黃（跌≥3%，純價量）"
+          ]
+        },
+        {
+          "time": "09:13",
+          "ticker": "3037",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "3037 欣興 {{chip:o}}｜中價965.5 −7.16%、量比0.25，首次橘（跌≥5%，量未達2×故不升紅）"
+          ]
+        },
+        {
+          "time": "09:13",
+          "ticker": "3324",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "3324 雙鴻 {{chip:o}}｜成交1320 −9.90%（近跌停）、量比0.25，首次橘（跌≥5%，量未達2×故不升紅）"
+          ]
+        },
+        {
+          "time": "09:13",
+          "ticker": "2408",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{chip:o}}｜中價437.25 −8.33%、量比0.29，首次橘（跌≥5%，量未達2×故不升紅）"
+          ]
+        },
+        {
+          "time": "09:13",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜首次綠：中價437.25 低於買進帶下緣441 3.75（v2026-10-13-1，參考、非買賣建議）"
+          ]
+        },
+        {
+          "time": "09:13",
+          "ticker": "1560",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "1560 中砂 {{chip:o}}｜中價843.5 −5.01%、量比0.10，首次橘（跌≥5%，邊界"
+          ]
+        },
+        {
+          "time": "09:13",
+          "ticker": "2241",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "2241 艾姆勒 {{chip:o}}｜中價41.65 −5.13%、量比0.05，首次橘（跌≥5%，純價量）"
+          ]
+        }
+      ]
     }
   },
   "views": {
