@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-11-02",
   "date_label": "2026-11-02（一）",
-  "last_updated": "2026-11-02T08:53:11+08:00",
+  "last_updated": "2026-11-02T09:11:53+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,8 +94,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-11-02T09:11:53+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-11-02T09:11:53+08:00",
+        "note": "燈號同步（哨兵 09:12）：2330:note；0050:note；5234:note；3037:note；3324:note；2408:green,lamp_since,note；1560:note；2241:note；event 09:11 2408:g"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -107,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價2337.5 -1.37% 量比0.31（09:11 開盤初段）；無觸發；MIS；高於買進帶上緣2310 27.5（盤中低點曾觸2310）",
+          "updated_at": "2026-11-02T09:11:53+08:00"
         },
         {
           "code": "0050",
@@ -117,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價104.075 -0.83% 量比0.25（09:11 開盤初段）；無觸發；MIS",
+          "updated_at": "2026-11-02T09:11:53+08:00"
         },
         {
           "code": "5234",
@@ -127,7 +135,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價267.75 +1.23% 量比0.17（09:11 開盤初段）；無觸發；MIS",
+          "updated_at": "2026-11-02T09:11:53+08:00"
         },
         {
           "code": "3037",
@@ -137,7 +146,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價975.5 -1.37% 量比0.21（09:11 開盤初段）；無觸發；MIS",
+          "updated_at": "2026-11-02T09:11:53+08:00"
         },
         {
           "code": "3324",
@@ -147,7 +157,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價1322.5 -0.56% 量比0.16（09:11 開盤初段）；無觸發；MIS；TPEx 注意名單（10/30 當沖比率，第十三款），非處置",
+          "updated_at": "2026-11-02T09:11:53+08:00"
         },
         {
           "code": "2408",
@@ -157,7 +168,10 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價446.25 -1.82% 量比0.21（09:11 開盤初段）；無觸發；MIS；💚在買進帶內441–595（v2026-10-13-1）",
+          "green": true,
+          "lamp_since": "09:11",
+          "updated_at": "2026-11-02T09:11:53+08:00"
         },
         {
           "code": "1560",
@@ -167,7 +181,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價856 -1.27% 量比0.18（09:11 開盤初段）；無觸發；MIS",
+          "updated_at": "2026-11-02T09:11:53+08:00"
         },
         {
           "code": "2241",
@@ -177,14 +192,25 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價42.45 +1.56% 量比0.05（09:11 開盤初段）；無觸發；MIS",
+          "updated_at": "2026-11-02T09:11:53+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:11",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 首次綠：中價446.25 −1.82%，在買進帶內441–595（v2026-10-13-1），參考、非買賣建議"
+          ]
+        }
+      ]
     }
   },
   "views": {
