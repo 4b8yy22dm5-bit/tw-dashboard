@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-11-03",
   "date_label": "2026-11-03（二）｜美國期中選舉日",
-  "last_updated": "2026-11-03T08:52:00+08:00",
+  "last_updated": "2026-11-03T09:09:38+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,8 +94,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-11-03T09:09:38+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-11-03T09:09:38+08:00",
+        "note": "燈號同步（哨兵 09:09）：2330:note；0050:note；5234:note；3037:note；3324:note；2408:lamp,green,lamp_since,note；1560:note；2241:note；event 09:09 2408:y；event 09:09 2408:g"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -107,7 +113,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價2317.5 -0.54% 量比0.25；無觸發；MIS 09:09；量比用 Yahoo avg20（10/1–11/2）；高於買進帶上緣2310 7.5（v2026-10-16-1）",
+          "updated_at": "2026-11-03T09:09:38+08:00"
         },
         {
           "code": "0050",
@@ -117,7 +124,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "成交102.85 -1.20% 量比0.21；無觸發；MIS 09:09；量比用 Yahoo avg20（10/1–11/2）",
+          "updated_at": "2026-11-03T09:09:38+08:00"
         },
         {
           "code": "5234",
@@ -127,7 +135,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價267.75 -1.20% 量比0.02；無觸發；MIS 09:09；量比用 Yahoo avg20（10/1–11/2）",
+          "updated_at": "2026-11-03T09:09:38+08:00"
         },
         {
           "code": "3037",
@@ -137,7 +146,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價975.5 -2.16% 量比0.18；無觸發；MIS 09:09；量比用 Yahoo avg20（10/1–11/2）",
+          "updated_at": "2026-11-03T09:09:38+08:00"
         },
         {
           "code": "3324",
@@ -147,7 +157,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價1402.5 +0.54% 量比0.17；無觸發；MIS 09:09；量比用 Yahoo avg20（10/1–11/2）；TPEx 注意名單（10/30），非處置",
+          "updated_at": "2026-11-03T09:09:38+08:00"
         },
         {
           "code": "2408",
@@ -156,8 +167,11 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "中價440.75 -3.45% 量比0.15；🟡跌≥3%；MIS 09:09；量比用 Yahoo avg20（10/1–11/2）；💚低於買進帶下緣441 0.25（帶441–595，v2026-10-13-1）；MOPS 11/2 16:48 取得機器設備約39.1億",
+          "green": true,
+          "lamp_since": "09:09",
+          "updated_at": "2026-11-03T09:09:38+08:00"
         },
         {
           "code": "1560",
@@ -167,7 +181,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價839 -2.89% 量比0.11；無觸發；MIS 09:09；量比用 Yahoo avg20（10/1–11/2）；MOPS 11/2 受邀 J.P. Morgan、UBS 法說（例行）",
+          "updated_at": "2026-11-03T09:09:38+08:00"
         },
         {
           "code": "2241",
@@ -177,14 +192,34 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價41.725 -1.13% 量比0.01；無觸發；MIS 09:09；量比用 Yahoo avg20（10/1–11/2）",
+          "updated_at": "2026-11-03T09:09:38+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:09",
+          "ticker": "2408",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{chip:y}}｜2408 首次黃：中價440.75 -3.45% 量比0.15（跌≥3%，MIS）"
+          ]
+        },
+        {
+          "time": "09:09",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜2408 首次綠：中價440.75 低於買進帶下緣441 0.25（v2026-10-13-1；參考、非買賣建議）"
+          ]
+        }
+      ]
     }
   },
   "views": {
