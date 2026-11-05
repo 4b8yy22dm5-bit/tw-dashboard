@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-11-05",
   "date_label": "2026-11-05（四）",
-  "last_updated": "2026-11-05T09:34:17+08:00",
+  "last_updated": "2026-11-05T09:53:19+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -93,8 +93,8 @@
     }
   },
   "intraday": {
-    "status": "pre",
-    "updated_at": "2026-11-05T09:34:17+08:00",
+    "status": "open",
+    "updated_at": "2026-11-05T09:53:19+08:00",
     "batches": [
       {
         "seq": 1,
@@ -110,107 +110,112 @@
         "seq": 3,
         "at": "2026-11-05T09:34:17+08:00",
         "note": "燈號同步（哨兵 09:34）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:note；3324:note；2408:note；1560:lamp,lamp_since,note；2241:note；event 09:33 1560:down；event 09:33 5234:clear"
+      },
+      {
+        "seq": 4,
+        "at": "2026-11-05T09:53:19+08:00",
+        "note": "09:52 報價批次（TWSE/TPEx MIS 09:52 買賣中價；量比＝今累計量／Yahoo 20日均量 10/5–11/4）"
       }
     ],
     "watchlist": {
-      "title_note": "盤中｜量比＝今日量／20 日均量",
+      "title_note": "盤中 09:52｜TWSE/TPEx MIS 買賣中價（無成交價時）｜量比＝今日量／20 日均量（Yahoo 10/5–11/4；0050 為 10/2–11/3）",
       "rows": [
         {
           "code": "2330",
           "name": "台積電",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 2267.5,
+          "price_text": "2,267.5",
+          "chg_pct": 0.33,
+          "vol_ratio": 0.45,
           "lamp": null,
           "note": "中價2267.5 +0.33% 量比0.36；💚在買進帶內（上緣2310，v2026-10-16-1）；MIS 09:31–09:33 買賣中價（無成交價z）；量比=今累計量/Yahoo avg20（10/5–11/4）",
           "green": true,
           "lamp_since": "09:10",
-          "updated_at": "2026-11-05T09:34:17+08:00"
+          "updated_at": "2026-11-05T09:53:19+08:00"
         },
         {
           "code": "0050",
           "name": "元大台灣50",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 98.625,
+          "price_text": "98.625",
+          "chg_pct": -1.23,
+          "vol_ratio": 1.1,
           "lamp": null,
           "note": "中價98.475 −1.38% 量比0.81；無燈；MIS 09:32；avg20 Yahoo（10/2–11/3）",
-          "updated_at": "2026-11-05T09:34:17+08:00"
+          "updated_at": "2026-11-05T09:53:19+08:00"
         },
         {
           "code": "5234",
           "name": "達興材料",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 263.75,
+          "price_text": "263.75",
+          "chg_pct": -0.47,
+          "vol_ratio": 0.21,
           "lamp": null,
           "note": "中價260.5 −1.70% 量比0.15；黃解除；高於買進帶上緣250 10.5；MIS 09:31–09:33 買賣中價（無成交價z）；量比=今累計量/Yahoo avg20（10/5–11/4）",
-          "updated_at": "2026-11-05T09:34:17+08:00",
+          "updated_at": "2026-11-05T09:53:19+08:00",
           "lamp_since": null
         },
         {
           "code": "3037",
           "name": "欣興",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 830,
+          "price_text": "830",
+          "chg_pct": -6.53,
+          "vol_ratio": 0.59,
           "lamp": "o",
           "note": "中價830.5 −6.48% 量比0.49；🟠跌≥5%（量未達2×未成紅）；純價量；MIS 09:31–09:33 買賣中價（無成交價z）；量比=今累計量/Yahoo avg20（10/5–11/4）",
           "lamp_since": "09:11",
-          "updated_at": "2026-11-05T09:34:17+08:00"
+          "updated_at": "2026-11-05T09:53:19+08:00"
         },
         {
           "code": "3324",
           "name": "雙鴻",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 1192.5,
+          "price_text": "1,192.5",
+          "chg_pct": -8.27,
+          "vol_ratio": 0.53,
           "lamp": "o",
           "note": "中價1187.5 −8.65% 量比0.41；🟠跌≥5%（≥7%但量未達2×，未成紅）；處置名單無；MIS 09:31–09:33 買賣中價（無成交價z）；量比=今累計量/Yahoo avg20（10/5–11/4）",
           "lamp_since": "09:10",
-          "updated_at": "2026-11-05T09:34:17+08:00"
+          "updated_at": "2026-11-05T09:53:19+08:00"
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 370.75,
+          "price_text": "370.75",
+          "chg_pct": -7.2,
+          "vol_ratio": 0.58,
           "lamp": "o",
           "note": "成交369 −7.63% 量比0.46；🟠跌≥5%（量未達2×未成紅）；💚低於買進帶下緣441 72（v2026-10-13-1）；MOPS 僅11/4盤後既有三則；MIS 09:32 成交價；量比=今累計量/Yahoo avg20（10/5–11/4）",
           "green": true,
           "lamp_since": "09:10",
-          "updated_at": "2026-11-05T09:34:17+08:00"
+          "updated_at": "2026-11-05T09:53:19+08:00"
         },
         {
           "code": "1560",
           "name": "中砂",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 759.5,
+          "price_text": "759.5",
+          "chg_pct": -3.62,
+          "vol_ratio": 0.53,
           "lamp": "y",
           "note": "中價756.5 −4.00% 量比0.45；🟡跌≥3%（橘降黃）；純價量；MIS 09:31–09:33 買賣中價（無成交價z）；量比=今累計量/Yahoo avg20（10/5–11/4）",
           "lamp_since": "09:33",
-          "updated_at": "2026-11-05T09:34:17+08:00"
+          "updated_at": "2026-11-05T09:53:19+08:00"
         },
         {
           "code": "2241",
           "name": "艾姆勒",
-          "price": null,
-          "price_text": null,
-          "chg_pct": null,
-          "vol_ratio": null,
+          "price": 36.75,
+          "price_text": "36.75",
+          "chg_pct": -5.16,
+          "vol_ratio": 0.12,
           "lamp": "o",
           "note": "中價36.6 −5.55% 量比0.10；🟠跌≥5%；純價量；MIS 09:31–09:33 買賣中價（無成交價z）；量比=今累計量/Yahoo avg20（10/5–11/4）",
           "lamp_since": "09:22",
-          "updated_at": "2026-11-05T09:34:17+08:00"
+          "updated_at": "2026-11-05T09:53:19+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
@@ -324,6 +329,12 @@
           "src": "sentry",
           "lines": [
             "5234 達興材料 {{tag:熄燈}}｜5234 黃解除：中價260.5 −1.70% 量比0.15"
+          ]
+        },
+        {
+          "time": "09:52",
+          "lines": [
+            "報價更新：3324 {{down:−8.27%}}、2408 {{down:−7.20%}}、3037 {{down:−6.53%}}、2241 {{down:−5.16%}}、1560 {{down:−3.62%}}；2330 {{up:+0.33%}} 💚 {{src:MIS 09:52}}"
           ]
         }
       ]
