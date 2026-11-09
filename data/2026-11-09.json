@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-11-09",
   "date_label": "2026-11-09（一）",
-  "last_updated": "2026-11-09T08:48:23+08:00",
+  "last_updated": "2026-11-09T09:09:12+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,8 +94,14 @@
   },
   "intraday": {
     "status": "pre",
-    "updated_at": null,
-    "batches": [],
+    "updated_at": "2026-11-09T09:09:12+08:00",
+    "batches": [
+      {
+        "seq": 1,
+        "at": "2026-11-09T09:09:12+08:00",
+        "note": "燈號同步（哨兵 09:12）：2330:lamp,green,lamp_since,note；0050:lamp,lamp_since,note；5234:lamp,lamp_since,note；3037:note；3324:note；2408:lamp,green,lamp_since,note；1560:lamp,lamp_since,note；2241:note；event 09:08 2"
+      }
+    ],
     "watchlist": {
       "title_note": "盤中｜量比＝今日量／20 日均量",
       "rows": [
@@ -106,8 +112,11 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "中價2202.5 +3.16% 量比0.33；🟡|漲跌|≥3%；純價量；💚在買進帶內（上緣2310，v2026-10-16-1）；MIS 中價；量比=今量/avg20 cache(11/6版)，開盤初期量比僅供參考",
+          "green": true,
+          "lamp_since": "09:08",
+          "updated_at": "2026-11-09T09:09:12+08:00"
         },
         {
           "code": "0050",
@@ -116,8 +125,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "中價95.275 +3.00% 量比0.39；🟡|漲跌|≥3%；純價量；MIS 中價；量比=今量/avg20 cache(11/6版)，開盤初期量比僅供參考",
+          "lamp_since": "09:08",
+          "updated_at": "2026-11-09T09:09:12+08:00"
         },
         {
           "code": "5234",
@@ -126,8 +137,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "中價257.25 +4.15% 量比0.09；🟡|漲跌|≥3%；純價量；高於買進帶上緣250 7.25（v2026-09-23-1）；MIS 中價；量比=今量/avg20 cache(11/6版)，開盤初期量比僅供參考",
+          "lamp_since": "09:08",
+          "updated_at": "2026-11-09T09:09:12+08:00"
         },
         {
           "code": "3037",
@@ -137,7 +150,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價733.5 +0.89% 量比0.35；無燈；純價量；高於買進帶上緣500 233.5（v2026-09-29-1）；MIS 中價；量比=今量/avg20 cache(11/6版)，開盤初期量比僅供參考",
+          "updated_at": "2026-11-09T09:09:12+08:00"
         },
         {
           "code": "3324",
@@ -147,7 +161,8 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價1082.5 +2.61% 量比0.17；無燈；純價量；MIS 中價；量比=今量/avg20 cache(11/6版)，開盤初期量比僅供參考",
+          "updated_at": "2026-11-09T09:09:12+08:00"
         },
         {
           "code": "2408",
@@ -156,8 +171,11 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "y",
+          "note": "中價356.25 +3.71% 量比0.15；🟡|漲跌|≥3%；純價量；💚低於買進帶下緣441 84.75（v2026-10-13-1）；MIS 中價；量比=今量/avg20 cache(11/6版)，開盤初期量比僅供參考",
+          "green": true,
+          "lamp_since": "09:08",
+          "updated_at": "2026-11-09T09:09:12+08:00"
         },
         {
           "code": "1560",
@@ -166,8 +184,10 @@
           "price_text": null,
           "chg_pct": null,
           "vol_ratio": null,
-          "lamp": null,
-          "note": ""
+          "lamp": "o",
+          "note": "中價705.0 +5.38% 量比0.22；🟠漲≥5%（量未達2×）；純價量；高於買進帶上緣493 212（v2026-10-14-1）；MIS 中價；量比=今量/avg20 cache(11/6版)，開盤初期量比僅供參考",
+          "lamp_since": "09:08",
+          "updated_at": "2026-11-09T09:09:12+08:00"
         },
         {
           "code": "2241",
@@ -177,14 +197,79 @@
           "chg_pct": null,
           "vol_ratio": null,
           "lamp": null,
-          "note": ""
+          "note": "中價34.625 +2.59% 量比0.03；無燈；純價量；MIS 中價；量比=今量/avg20 cache(11/6版)，開盤初期量比僅供參考",
+          "updated_at": "2026-11-09T09:09:12+08:00"
         }
       ],
       "caption": "門檻：黃 ±3% 或量≥1.5×；橘 ±5% 或量≥2×；紅 ±7% 且量≥3×（或跌≥7%＋量≥2×）；💚＝價≤參考買進帶上緣（參考，非建議）"
     },
     "timeline": {
       "title_note": "watchlist-alert bot",
-      "events": []
+      "events": [
+        {
+          "time": "09:08",
+          "ticker": "2330",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "2330 台積電 {{chip:y}}｜首次黃：中價2202.5 +3.16% 量比0.33"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "2330",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2330 台積電 {{green}}｜首次綠：中價2202.5 在買進帶內（上緣2310，v2026-10-16-1）（參考、非買賣建議）"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "0050",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "0050 元大台灣50 {{chip:y}}｜首次黃：中價95.275 +3.00% 量比0.39"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "5234",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "5234 達興材料 {{chip:y}}｜首次黃：中價257.25 +4.15% 量比0.09"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "2408",
+          "type": "y",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{chip:y}}｜首次黃：中價356.25 +3.71% 量比0.15"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "2408",
+          "type": "g",
+          "src": "sentry",
+          "lines": [
+            "2408 南亞科 {{green}}｜首次綠：中價356.25 低於買進帶下緣441 84.75（v2026-10-13-1）（參考、非買賣建議）"
+          ]
+        },
+        {
+          "time": "09:08",
+          "ticker": "1560",
+          "type": "o",
+          "src": "sentry",
+          "lines": [
+            "1560 中砂 {{chip:o}}｜首次橘：中價705.0 +5.38% 量比0.22"
+          ]
+        }
+      ]
     }
   },
   "views": {
