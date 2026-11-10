@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-11-10",
   "date_label": "2026-11-10（二）",
-  "last_updated": "2026-11-10T12:15:29+08:00",
+  "last_updated": "2026-11-10T12:17:03+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,7 +94,7 @@
   },
   "intraday": {
     "status": "open",
-    "updated_at": "2026-11-10T12:15:29+08:00",
+    "updated_at": "2026-11-10T12:17:03+08:00",
     "batches": [
       {
         "seq": 1,
@@ -160,106 +160,111 @@
         "seq": 13,
         "at": "2026-11-10T12:15:29+08:00",
         "note": "燈號同步（哨兵 12:12）：2330:note；0050:note；5234:note；3037:note；3324:lamp,lamp_since,note；2408:note；1560:note；2241:note；event 11:58 3324:o"
+      },
+      {
+        "seq": 14,
+        "at": "2026-11-10T12:17:03+08:00",
+        "note": "12:16 批次｜TWSE／TPEx MIS 12:15:17–12:16:21（中價，0050為成交價）；量比＝今量／20日均量（cache avg20-2026-11-09）；燈號依哨兵"
       }
     ],
     "watchlist": {
-      "title_note": "盤中 11:47｜量比＝今日量／20 日均量",
+      "title_note": "盤中 12:16｜量比＝今日量／20 日均量",
       "rows": [
         {
           "code": "2330",
           "name": "台積電",
-          "price": 2232.5,
-          "price_text": "2,232.50",
-          "chg_pct": -0.11,
-          "vol_ratio": 0.49,
+          "price": 2242.5,
+          "price_text": "2,242.50",
+          "chg_pct": 0.34,
+          "vol_ratio": 0.56,
           "lamp": null,
           "note": "2242.5 +0.34%（中價）；燈號延續，量比沿用前輪未重算；MIS 買賣中價；本輪未查MOPS；未用Jev",
           "green": true,
           "lamp_since": "09:08",
-          "updated_at": "2026-11-10T12:15:29+08:00"
+          "updated_at": "2026-11-10T12:17:03+08:00"
         },
         {
           "code": "0050",
           "name": "元大台灣50",
-          "price": 97.825,
-          "price_text": "97.825",
-          "chg_pct": 0.38,
-          "vol_ratio": 0.62,
+          "price": 98.4,
+          "price_text": "98.40",
+          "chg_pct": 0.97,
+          "vol_ratio": 0.66,
           "lamp": null,
           "note": "98.425 +1.00%（中價）；燈號延續，量比沿用前輪未重算；MIS 買賣中價；本輪未查MOPS；未用Jev",
-          "updated_at": "2026-11-10T12:15:29+08:00"
+          "updated_at": "2026-11-10T12:17:03+08:00"
         },
         {
           "code": "5234",
           "name": "達興材料",
-          "price": 263.25,
-          "price_text": "263.25",
-          "chg_pct": 0.1,
-          "vol_ratio": 0.54,
+          "price": 262.75,
+          "price_text": "262.75",
+          "chg_pct": -0.1,
+          "vol_ratio": 0.57,
           "lamp": null,
           "note": "262.75 -0.10%（中價）；燈號延續，量比沿用前輪未重算；MIS 買賣中價；本輪未查MOPS；未用Jev",
-          "updated_at": "2026-11-10T12:15:29+08:00",
+          "updated_at": "2026-11-10T12:17:03+08:00",
           "lamp_since": null
         },
         {
           "code": "3037",
           "name": "欣興",
-          "price": 805.5,
-          "price_text": "805.50",
-          "chg_pct": 6.41,
-          "vol_ratio": 0.73,
+          "price": 810.5,
+          "price_text": "810.50",
+          "chg_pct": 7.07,
+          "vol_ratio": 0.97,
           "lamp": "o",
           "note": "818.5 +8.13%（中價）；燈號延續，量比沿用前輪未重算；MIS 買賣中價；本輪未查MOPS；未用Jev",
           "lamp_since": "09:08",
-          "updated_at": "2026-11-10T12:15:29+08:00"
+          "updated_at": "2026-11-10T12:17:03+08:00"
         },
         {
           "code": "3324",
           "name": "雙鴻",
-          "price": 1187.5,
-          "price_text": "1,187.50",
-          "chg_pct": 3.26,
-          "vol_ratio": 1.23,
+          "price": 1212.5,
+          "price_text": "1,212.50",
+          "chg_pct": 5.43,
+          "vol_ratio": 1.3,
           "lamp": "o",
           "note": "1212.5 +5.43%（中價）；燈號延續，量比沿用前輪未重算；MIS 買賣中價；本輪未查MOPS；未用Jev",
           "lamp_since": "11:58",
-          "updated_at": "2026-11-10T12:15:29+08:00"
+          "updated_at": "2026-11-10T12:17:03+08:00"
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "price": 371.25,
-          "price_text": "371.25",
-          "chg_pct": 0.34,
-          "vol_ratio": 0.85,
+          "price": 373.75,
+          "price_text": "373.75",
+          "chg_pct": 1.01,
+          "vol_ratio": 0.95,
           "lamp": null,
           "note": "375.75 +1.55%（中價）；燈號延續，量比沿用前輪未重算；MIS 買賣中價；本輪未查MOPS；未用Jev",
           "green": true,
           "lamp_since": "10:54",
-          "updated_at": "2026-11-10T12:15:29+08:00"
+          "updated_at": "2026-11-10T12:17:03+08:00"
         },
         {
           "code": "1560",
           "name": "中砂",
-          "price": 737,
-          "price_text": "737",
-          "chg_pct": 0.27,
-          "vol_ratio": 1.21,
+          "price": 748,
+          "price_text": "748",
+          "chg_pct": 1.77,
+          "vol_ratio": 1.4,
           "lamp": null,
           "note": "750 +2.04%（中價）；燈號延續，量比沿用前輪未重算；MIS 買賣中價；本輪未查MOPS；未用Jev",
           "lamp_since": null,
-          "updated_at": "2026-11-10T12:15:29+08:00"
+          "updated_at": "2026-11-10T12:17:03+08:00"
         },
         {
           "code": "2241",
           "name": "艾姆勒",
-          "price": 37.375,
-          "price_text": "37.375",
-          "chg_pct": 1.29,
-          "vol_ratio": 0.61,
+          "price": 37.475,
+          "price_text": "37.475",
+          "chg_pct": 1.56,
+          "vol_ratio": 0.63,
           "lamp": null,
           "note": "37.575 +1.83%（中價）；燈號延續，量比沿用前輪未重算；MIS 買賣中價；本輪未查MOPS；未用Jev",
-          "updated_at": "2026-11-10T12:15:29+08:00",
+          "updated_at": "2026-11-10T12:17:03+08:00",
           "lamp_since": null
         }
       ],
@@ -477,6 +482,14 @@
           "src": "sentry",
           "lines": [
             "3324 雙鴻 {{chip:o}}｜黃回橘 1210 +5.22% 量比1.25（價量，量未達2×）"
+          ]
+        },
+        {
+          "time": "12:16",
+          "lines": [
+            "2330 台積電 {{green}}{{up:+0.34%}}・量 0.56×；0050 元大台灣50 {{up:+0.97%}}・量 0.66×；5234 達興材料 {{down:−0.10%}}・量 0.57×；3037 欣興 {{chip:o}}{{up:+7.07%}}・量 0.97×",
+            "3324 雙鴻 {{chip:o}}{{up:+5.43%}}・量 1.30×；2408 南亞科 {{green}}{{up:+1.01%}}・量 0.95×；1560 中砂 {{up:+1.77%}}・量 1.40×；2241 艾姆勒 {{up:+1.56%}}・量 0.63×",
+            "資料 {{src:TWSE/TPEx MIS 12:15:17–12:16:21}}"
           ]
         }
       ]
