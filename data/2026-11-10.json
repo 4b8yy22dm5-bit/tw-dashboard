@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-11-10",
   "date_label": "2026-11-10（二）",
-  "last_updated": "2026-11-10T10:21:34+08:00",
+  "last_updated": "2026-11-10T10:22:59+08:00",
   "default_tab": "am",
   "valuation": {
     "5234": {
@@ -94,7 +94,7 @@
   },
   "intraday": {
     "status": "open",
-    "updated_at": "2026-11-10T10:21:34+08:00",
+    "updated_at": "2026-11-10T10:22:59+08:00",
     "batches": [
       {
         "seq": 1,
@@ -120,10 +120,15 @@
         "seq": 5,
         "at": "2026-11-10T10:21:34+08:00",
         "note": "燈號同步（哨兵 10:21）：2330:note；0050:note；5234:lamp,lamp_since,note；3037:note；3324:note；2408:note；1560:note；2241:lamp_since,note；event 09:54 5234:clear；event 09:54 2241:down；event 10:12 2241:o"
+      },
+      {
+        "seq": 6,
+        "at": "2026-11-10T10:22:59+08:00",
+        "note": "10:22 批次｜TWSE／TPEx MIS 10:21:49–10:22:01（中價，3037為漲停買價）；量比＝今量／20日均量（cache avg20-2026-11-09）；燈號依哨兵"
       }
     ],
     "watchlist": {
-      "title_note": "盤中 09:56｜量比＝今日量／20 日均量",
+      "title_note": "盤中 10:22｜量比＝今日量／20 日均量",
       "rows": [
         {
           "code": "2330",
@@ -131,34 +136,34 @@
           "price": 2267.5,
           "price_text": "2,267.50",
           "chg_pct": 1.45,
-          "vol_ratio": 0.34,
+          "vol_ratio": 0.36,
           "lamp": null,
           "note": "2265 +1.45% 量比0.36；🟢在買進帶內（v2026-10-16-1 上緣2310，參考）；MIS 成交價；量比=今量/avg20 cache；MOPS無自選新公告、處置注意無自選；未用Jev",
           "green": true,
           "lamp_since": "09:08",
-          "updated_at": "2026-11-10T10:21:34+08:00"
+          "updated_at": "2026-11-10T10:22:59+08:00"
         },
         {
           "code": "0050",
           "name": "元大台灣50",
-          "price": 99.925,
-          "price_text": "99.925",
-          "chg_pct": 2.54,
-          "vol_ratio": 0.39,
+          "price": 99.975,
+          "price_text": "99.975",
+          "chg_pct": 2.59,
+          "vol_ratio": 0.44,
           "lamp": null,
           "note": "99.95 +2.54% 量比0.43；無燈；MIS 成交價；量比=今量/avg20 cache；MOPS無自選新公告、處置注意無自選；未用Jev",
-          "updated_at": "2026-11-10T10:21:34+08:00"
+          "updated_at": "2026-11-10T10:22:59+08:00"
         },
         {
           "code": "5234",
           "name": "達興材料",
-          "price": 270,
-          "price_text": "270",
-          "chg_pct": 2.66,
-          "vol_ratio": 0.25,
+          "price": 269.25,
+          "price_text": "269.25",
+          "chg_pct": 2.38,
+          "vol_ratio": 0.27,
           "lamp": null,
           "note": "270 +2.38% 量比0.27；無燈；MIS 成交價；量比=今量/avg20 cache；MOPS無自選新公告、處置注意無自選；未用Jev",
-          "updated_at": "2026-11-10T10:21:34+08:00",
+          "updated_at": "2026-11-10T10:22:59+08:00",
           "lamp_since": null
         },
         {
@@ -167,59 +172,59 @@
           "price": 832,
           "price_text": "832",
           "chg_pct": 9.91,
-          "vol_ratio": 0.34,
+          "vol_ratio": 0.35,
           "lamp": "o",
           "note": "832 +9.91% 漲停鎖死 量比0.35；🟠；高於買進帶上緣500 332；MIS 成交價；量比=今量/avg20 cache；MOPS無自選新公告、處置注意無自選；未用Jev",
           "lamp_since": "09:08",
-          "updated_at": "2026-11-10T10:21:34+08:00"
+          "updated_at": "2026-11-10T10:22:59+08:00"
         },
         {
           "code": "3324",
           "name": "雙鴻",
-          "price": 1242.5,
-          "price_text": "1,242.50",
-          "chg_pct": 8.04,
-          "vol_ratio": 0.88,
+          "price": 1232.5,
+          "price_text": "1,232.50",
+          "chg_pct": 7.17,
+          "vol_ratio": 0.94,
           "lamp": "o",
           "note": "1235 +7.39% 量比0.93；🟠；MIS 成交價；量比=今量/avg20 cache；MOPS無自選新公告、處置注意無自選；未用Jev",
           "lamp_since": "09:08",
-          "updated_at": "2026-11-10T10:21:34+08:00"
+          "updated_at": "2026-11-10T10:22:59+08:00"
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "price": 397.25,
-          "price_text": "397.25",
-          "chg_pct": 7.36,
-          "vol_ratio": 0.47,
+          "price": 394.75,
+          "price_text": "394.75",
+          "chg_pct": 6.69,
+          "vol_ratio": 0.53,
           "lamp": "o",
           "note": "394 +6.49% 量比0.52；🟠；🟢低於買進帶下緣441 47（上緣595，參考）；MIS 成交價；量比=今量/avg20 cache；MOPS無自選新公告、處置注意無自選；未用Jev",
           "green": true,
           "lamp_since": "09:08",
-          "updated_at": "2026-11-10T10:21:34+08:00"
+          "updated_at": "2026-11-10T10:22:59+08:00"
         },
         {
           "code": "1560",
           "name": "中砂",
-          "price": 801,
-          "price_text": "801",
-          "chg_pct": 8.98,
-          "vol_ratio": 0.53,
+          "price": 788.5,
+          "price_text": "788.50",
+          "chg_pct": 7.28,
+          "vol_ratio": 0.69,
           "lamp": "o",
           "note": "790 +7.48% 量比0.68；🟠；MIS 成交價；量比=今量/avg20 cache；MOPS無自選新公告、處置注意無自選；未用Jev",
           "lamp_since": "09:08",
-          "updated_at": "2026-11-10T10:21:34+08:00"
+          "updated_at": "2026-11-10T10:22:59+08:00"
         },
         {
           "code": "2241",
           "name": "艾姆勒",
-          "price": 38.725,
-          "price_text": "38.725",
-          "chg_pct": 4.95,
-          "vol_ratio": 0.35,
+          "price": 39.175,
+          "price_text": "39.175",
+          "chg_pct": 6.17,
+          "vol_ratio": 0.46,
           "lamp": "o",
           "note": "39.05 +5.82% 量比0.46；🟠；MIS 成交價；量比=今量/avg20 cache；MOPS無自選新公告、處置注意無自選；未用Jev",
-          "updated_at": "2026-11-10T10:21:34+08:00",
+          "updated_at": "2026-11-10T10:22:59+08:00",
           "lamp_since": "10:12"
         }
       ],
@@ -333,6 +338,14 @@
           "src": "sentry",
           "lines": [
             "2241 艾姆勒 {{chip:o}}｜黃回橘 39 +5.69% 量比0.45（價量，量未達2×）"
+          ]
+        },
+        {
+          "time": "10:22",
+          "lines": [
+            "2330 台積電 {{green}}{{up:+1.45%}}・量 0.36×；0050 元大台灣50 {{up:+2.59%}}・量 0.44×；5234 達興材料 {{up:+2.38%}}・量 0.27×；3037 欣興 {{chip:o}}{{up:+9.91%}}・量 0.35×",
+            "3324 雙鴻 {{chip:o}}{{up:+7.17%}}・量 0.94×；2408 南亞科 {{chip:o}}{{green}}{{up:+6.69%}}・量 0.53×；1560 中砂 {{chip:o}}{{up:+7.28%}}・量 0.69×；2241 艾姆勒 {{chip:o}}{{up:+6.17%}}・量 0.46×",
+            "資料 {{src:TWSE/TPEx MIS 10:21:49–10:22:01}}"
           ]
         }
       ]
